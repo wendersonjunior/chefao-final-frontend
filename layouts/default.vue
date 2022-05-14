@@ -1,9 +1,9 @@
 <template>
   <v-app>
-    <v-app-bar elevation="0" color="rgb(254, 254, 254)" app>
+    <v-app-bar elevation="1" color="rgb(254, 254, 254)" app>
         <v-container>
           <div class="d-flex align-center">
-            <h1>5 Estrelas</h1>
+            <h2>Sou uma logo</h2>
               <v-spacer></v-spacer>
             <v-btn text color="primary" class="mr-2">SEJA UM PRODUTOR</v-btn>
             <v-btn color="primary">ACESSAR</v-btn>
@@ -11,7 +11,7 @@
         </v-container>
     </v-app-bar>
     <v-main>
-      <v-parallax src="https://soubh.uai.com.br/uploads/post/image/13270/main_EAFO.jpg" height="250">
+      <!-- <v-parallax src="https://soubh.uai.com.br/uploads/post/image/13270/main_EAFO.jpg" height="250">
       <v-overlay absolute opacity="0.7">
         <v-container>
           <v-row>
@@ -26,13 +26,13 @@
             </v-col>
           </v-row>
         </v-container>
-      </v-overlay>
-      </v-parallax>
-      <v-card elevation="0" class="rounded-xl white mt-n5">
-        <v-container>
+      </v-overlay> -->
+      <!-- </v-parallax> -->
+      <!-- <v-card elevation="0" class="rounded-xl white mt-n5">
+        <v-container> -->
           <Nuxt />
-        </v-container>
-      </v-card>
+        <!-- </v-container>
+      </v-card> -->
     </v-main>
   </v-app>
 </template>

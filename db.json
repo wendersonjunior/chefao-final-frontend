@@ -2,79 +2,385 @@
   "tags": [
     {
       "id": 1,
-      "description": "Shows",
-      "banner": "https://images.sympla.com.br/61655d235b08e.jpg"
+      "description": "Shows e festivais",
+      "banner": "https://images.sympla.com.br/61655d235b08e.jpg",
+      "text": "Mussum Ipsum, cacilds vidis litro abertis. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Suco de cevadiss deixa as pessoas mais interessantis.A ordem dos tratores não altera o pão duris.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose."
     },
     {
       "id": 2,
       "description": "Teatro e comédia",
-      "banner": "https://images.sympla.com.br/61655c321f3dd.jpg"
+      "banner": "https://images.sympla.com.br/61655c321f3dd.jpg",
+      "text": "Mussum Ipsum, cacilds vidis litro abertis. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Suco de cevadiss deixa as pessoas mais interessantis.A ordem dos tratores não altera o pão duris.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose."
     },
     {
       "id": 3,
       "description": "Infatil e família",
-      "banner": "https://images.sympla.com.br/61655bcb2a098.jpg"
+      "banner": "https://images.sympla.com.br/61655bcb2a098.jpg",
+      "text": "Mussum Ipsum, cacilds vidis litro abertis. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Suco de cevadiss deixa as pessoas mais interessantis.A ordem dos tratores não altera o pão duris.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose."
     },
     {
       "id": 4,
       "description": "Gastronomia",
-      "banner": "https://images.sympla.com.br/61655e17a3623.jpg"
+      "banner": "https://images.sympla.com.br/61655e17a3623.jpg",
+      "text": "Mussum Ipsum, cacilds vidis litro abertis. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Suco de cevadiss deixa as pessoas mais interessantis.A ordem dos tratores não altera o pão duris.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose."
     },
     {
       "id": 5,
       "description": "Esportes",
-      "banner": "https://images.sympla.com.br/61655d62aa0e9.jpg"
+      "banner": "https://images.sympla.com.br/61655d62aa0e9.jpg",
+      "text": "Mussum Ipsum, cacilds vidis litro abertis. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Suco de cevadiss deixa as pessoas mais interessantis.A ordem dos tratores não altera o pão duris.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose."
     },
     {
       "id": 6,
       "description": "Lazer e turismo",
-      "banner": "https://images.sympla.com.br/61655cd018c97.jpg"
+      "banner": "https://images.sympla.com.br/61655cd018c97.jpg",
+      "text": "Mussum Ipsum, cacilds vidis litro abertis. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Suco de cevadiss deixa as pessoas mais interessantis.A ordem dos tratores não altera o pão duris.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose."
     },
     {
       "id": 7,
       "description": "Bares e baladas",
-      "banner": "https://images.sympla.com.br/61655e9811c7a.jpg"
+      "banner": "https://images.sympla.com.br/61655e9811c7a.jpg",
+      "text": "Mussum Ipsum, cacilds vidis litro abertis. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Suco de cevadiss deixa as pessoas mais interessantis.A ordem dos tratores não altera o pão duris.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose."
     },
     {
       "id": 8,
       "description": "Eventos online",
-      "banner": "https://images.sympla.com.br/61655c5b0cbbe.jpg"
+      "banner": "https://images.sympla.com.br/61655c5b0cbbe.jpg",
+      "text": "Mussum Ipsum, cacilds vidis litro abertis. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Suco de cevadiss deixa as pessoas mais interessantis.A ordem dos tratores não altera o pão duris.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose."
     },
     {
       "id": 9,
       "description": "Religião e espiritualidade",
-      "banner": "https://images.sympla.com.br/61655def86a68.jpg"
+      "banner": "https://images.sympla.com.br/61655def86a68.jpg",
+      "text": "Mussum Ipsum, cacilds vidis litro abertis. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Suco de cevadiss deixa as pessoas mais interessantis.A ordem dos tratores não altera o pão duris.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose."
     },
     {
-      "id": 11,
+      "id": 10,
       "description": "Cursos e workshops",
-      "banner": "https://images.sympla.com.br/61655d94491e1.jpg"
+      "banner": "https://images.sympla.com.br/61655d94491e1.jpg",
+      "text": "Mussum Ipsum, cacilds vidis litro abertis. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Suco de cevadiss deixa as pessoas mais interessantis.A ordem dos tratores não altera o pão duris.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose."
     }
   ],
   "subtags": [
     {
       "id": 1,
       "tag": 1,
-      "description": "Show Internacional",
-      "color": "red darken-4"
+      "description": "Show Internacional"
     },
     {
       "id": 2,
       "tag": 1,
-      "description": "Show Nacional",
-      "color": "pink darken-4"
+      "description": "Show Nacional"
     },
     {
       "id": 3,
       "tag": 1,
-      "description": "Pop & Rock",
-      "color": "purple darken-4"
+      "description": "Pop & Rock"
     },
     {
       "id": 4,
       "tag": 1,
-      "description": "Hip-Hop & Rap",
-      "color": "deep-purple darken-4"
+      "description": "Hip-Hop & Rap"
+    },
+    {
+      "id": 5,
+      "tag": 1,
+      "description": "Hard Rock & Metal"
+    },
+    {
+      "id": 6,
+      "tag": 1,
+      "description": "Festas & Festivais"
+    },
+    {
+      "id": 7,
+      "tag": 1,
+      "description": "Tributos & Homenagens"
+    },
+    {
+      "id": 8,
+      "tag": 1,
+      "description": "Música Clássica & Instrumental"
+    },
+    {
+      "id": 9,
+      "tag": 1,
+      "description": "Sertanejo"
+    },
+    {
+      "id": 10,
+      "tag": 1,
+      "description": "Eletrônica & Dance"
+    },
+    {
+      "id": 11,
+      "tag": 1,
+      "description": "MPB"
+    },
+    {
+      "id": 12,
+      "tag": 1,
+      "description": "Samba & Pagode"
+    },
+    {
+      "id": 13,
+      "tag": 1,
+      "description": "Jazz & Blues"
+    },
+    {
+      "id": 14,
+      "tag": 1,
+      "description": "Reggae"
+    },
+    {
+      "id": 15,
+      "tag": 2,
+      "description": "Comédia"
+    },
+    {
+      "id": 16,
+      "tag": 2,
+      "description": "Teatro"
+    },
+    {
+      "id": 17,
+      "tag": 2,
+      "description": "Musicais"
+    },
+    {
+      "id": 18,
+      "tag": 2,
+      "description": "Balé & Dança"
+    },
+    {
+      "id": 19,
+      "tag": 3,
+      "description": "Shows Infantis"
+    },
+    {
+      "id": 20,
+      "tag": 3,
+      "description": "Teatro Infantil"
+    },
+    {
+      "id": 21,
+      "tag": 3,
+      "description": "Outros Eventos Infantis"
+    },
+    {
+      "id": 22,
+      "tag": 4,
+      "description": "Nacional"
+    },
+    {
+      "id": 23,
+      "tag": 4,
+      "description": "Bebidas"
+    },
+    {
+      "id": 24,
+      "tag": 4,
+      "description": "Internacional"
+    },
+    {
+      "id": 25,
+      "tag": 5,
+      "description": "eSports"
+    },
+    {
+      "id": 26,
+      "tag": 5,
+      "description": "Futebol"
+    },
+    {
+      "id": 27,
+      "tag": 5,
+      "description": "Voleibol"
+    },
+    {
+      "id": 28,
+      "tag": 5,
+      "description": "Basquete"
+    },
+    {
+      "id": 29,
+      "tag": 5,
+      "description": "Outros Esportes"
+    },
+    {
+      "id": 30,
+      "tag": 6,
+      "description": "Cinema"
+    },
+    {
+      "id": 31,
+      "tag": 6,
+      "description": "Museus & Exposições"
+    },
+    {
+      "id": 32,
+      "tag": 6,
+      "description": "Atrações Turísticas"
+    },
+    {
+      "id": 33,
+      "tag": 6,
+      "description": "Outras Atrações"
+    },
+    {
+      "id": 34,
+      "tag": 7,
+      "description": "Bar"
+    },
+    {
+      "id": 35,
+      "tag": 7,
+      "description": "Balada"
+    },
+    {
+      "id": 36,
+      "tag": 7,
+      "description": "Entrada gratuita"
+    },
+    {
+      "id": 37,
+      "tag": 7,
+      "description": "Social"
+    },
+    {
+      "id": 38,
+      "tag": 7,
+      "description": "Temático"
+    },
+    {
+      "id": 40,
+      "tag": 8,
+      "description": "Interativo"
+    },
+    {
+      "id": 41,
+      "tag": 8,
+      "description": "Gratuito"
+    },
+    {
+      "id": 42,
+      "tag": 8,
+      "description": "Pago"
+    },
+    {
+      "id": 43,
+      "tag": 9,
+      "description": "Católico"
+    },
+    {
+      "id": 44,
+      "tag": 9,
+      "description": "Evangélico"
+    },
+    {
+      "id": 45,
+      "tag": 9,
+      "description": "Budismo"
+    },
+    {
+      "id": 46,
+      "tag": 9,
+      "description": "Espírita"
+    },
+    {
+      "id": 47,
+      "tag": 9,
+      "description": "Umbanda & Candomblé"
+    },
+    {
+      "id": 48,
+      "tag": 9,
+      "description": "Judaísmo"
+    },
+    {
+      "id": 49,
+      "tag": 9,
+      "description": "Islamismo"
+    },
+    {
+      "id": 50,
+      "tag": 9,
+      "description": "Outra religão"
+    },
+    {
+      "id": 51,
+      "tag": 10,
+      "description": "Curso"
+    },
+    {
+      "id": 52,
+      "tag": 10,
+      "description": "Palestra"
+    },
+    {
+      "id": 53,
+      "tag": 10,
+      "description": "Workshop"
+    },
+    {
+      "id": 54,
+      "tag": 10,
+      "description": "Tecnologia"
+    },
+    {
+      "id": 55,
+      "tag": 10,
+      "description": "Comunicação"
+    },
+    {
+      "id": 56,
+      "tag": 10,
+      "description": "Social"
+    },
+    {
+      "id": 57,
+      "tag": 10,
+      "description": "Filosofia"
+    },
+    {
+      "id": 58,
+      "tag": 10,
+      "description": "Gratuito"
+    },
+    {
+      "id": 59,
+      "tag": 10,
+      "description": "Pago"
+    }
+  ],
+  "producers": [
+    {
+      "name": "Produtor",
+      "lastName": "Junim",
+      "email": "wendersonej.74@gmail.com",
+      "password": "123123"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "name": "METALLICA",
+      "banner": "https://www.eventim.com.br/obj/media/BR-eventim/teaser/evo/artwork/2020/metallica2022-artworkbh.png",
+      "date": "2022-05-16",
+      "schedule": "13:00",
+      "address": "Estádio do Mineirão",
+      "completeAddress": "Av. Antônio Abrahão Caram, 1001 - São José, Belo Horizonte - MG, 31275-000",
+      "tag": 1,
+      "subtags": [
+        {
+          "id": 1,
+          "description": "Show Internacional"
+        },
+        {
+          "id": 5,
+          "description": "Hard Rock & Metal"
+        }
+      ]
     }
   ]
 }

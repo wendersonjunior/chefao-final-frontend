@@ -18,11 +18,11 @@
         v-for="tag in eventData.subtags" 
         :key="tag.id" 
         small 
-        :color="tag.color" 
+        color="blue"
         text-color="white" 
         class="mr-2 mt-2"
       >
-        {{ tag.description }}
+        #{{ tag.description }}
       </v-chip>
     </v-card-text>
   </v-card>
