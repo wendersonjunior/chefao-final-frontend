@@ -1,0 +1,80 @@
+{
+  "tags": [
+    {
+      "id": 1,
+      "description": "Shows",
+      "banner": "https://images.sympla.com.br/61655d235b08e.jpg"
+    },
+    {
+      "id": 2,
+      "description": "Teatro e comédia",
+      "banner": "https://images.sympla.com.br/61655c321f3dd.jpg"
+    },
+    {
+      "id": 3,
+      "description": "Infatil e família",
+      "banner": "https://images.sympla.com.br/61655bcb2a098.jpg"
+    },
+    {
+      "id": 4,
+      "description": "Gastronomia",
+      "banner": "https://images.sympla.com.br/61655e17a3623.jpg"
+    },
+    {
+      "id": 5,
+      "description": "Esportes",
+      "banner": "https://images.sympla.com.br/61655d62aa0e9.jpg"
+    },
+    {
+      "id": 6,
+      "description": "Lazer e turismo",
+      "banner": "https://images.sympla.com.br/61655cd018c97.jpg"
+    },
+    {
+      "id": 7,
+      "description": "Bares e baladas",
+      "banner": "https://images.sympla.com.br/61655e9811c7a.jpg"
+    },
+    {
+      "id": 8,
+      "description": "Eventos online",
+      "banner": "https://images.sympla.com.br/61655c5b0cbbe.jpg"
+    },
+    {
+      "id": 9,
+      "description": "Religião e espiritualidade",
+      "banner": "https://images.sympla.com.br/61655def86a68.jpg"
+    },
+    {
+      "id": 11,
+      "description": "Cursos e workshops",
+      "banner": "https://images.sympla.com.br/61655d94491e1.jpg"
+    }
+  ],
+  "subtags": [
+    {
+      "id": 1,
+      "tag": 1,
+      "description": "Show Internacional",
+      "color": "red darken-4"
+    },
+    {
+      "id": 2,
+      "tag": 1,
+      "description": "Show Nacional",
+      "color": "pink darken-4"
+    },
+    {
+      "id": 3,
+      "tag": 1,
+      "description": "Pop & Rock",
+      "color": "purple darken-4"
+    },
+    {
+      "id": 4,
+      "tag": 1,
+      "description": "Hip-Hop & Rap",
+      "color": "deep-purple darken-4"
+    }
+  ]
+}
