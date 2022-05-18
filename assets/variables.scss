@@ -2,3 +2,9 @@
 //
 // The variables you want to modify
 // $font-size-root: 20px;
+.v-slide-group__next,
+.v-slide-group__prev {
+  min-width: 0px !important;
+}
+
+$slide-group-prev-basis: 15px !important;

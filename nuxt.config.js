@@ -32,7 +32,14 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
+
+    '@nuxtjs/moment'
   ],
+
+  moment: {
+    defaultLocale : 'pt-br' , 
+    locales: ['pt-br']
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

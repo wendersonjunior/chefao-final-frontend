@@ -1,44 +1,38 @@
 <template>
   <v-app>
-    <v-app-bar elevation="1" color="rgb(254, 254, 254)" app>
-        <v-container>
-          <div class="d-flex align-center">
-            <h2>Sou uma logo</h2>
-              <v-spacer></v-spacer>
+    <v-app-bar elevation="2" color="rgb(254, 254, 254)" app>
+      <v-container>
+        <v-row>
+          <v-col>
+            <h2>logo</h2>
+          </v-col>
+          <v-spacer></v-spacer>
+          <v-col align="end">
             <v-btn text color="primary" class="mr-2">SEJA UM PRODUTOR</v-btn>
-            <v-btn color="primary">ACESSAR</v-btn>
-          </div>
-        </v-container>
+            <NuxtLink to="/produtor/autenticacao" class="text-decoration-none">
+              <v-btn color="primary">ACESSAR</v-btn>
+            </NuxtLink>
+          </v-col>
+        </v-row>
+      </v-container>
     </v-app-bar>
     <v-main>
-      <!-- <v-parallax src="https://soubh.uai.com.br/uploads/post/image/13270/main_EAFO.jpg" height="250">
-      <v-overlay absolute opacity="0.7">
-        <v-container>
-          <v-row>
-            <v-col>
-              <h1>Belo Horizonte</h1>
-              <p class="body-1">
-                Que tal aproveitar a gastronomia mineira, ir a um festival com os amigos, 
-                começar a noite na boemia e ainda explorar a programação cultural em BH?<br> 
-                Encontre os melhores eventos, passeios turísticos, shows, festas e muito 
-                mais em Belo Horizonte!
-              </p>
-            </v-col>
-          </v-row>
-        </v-container>
-      </v-overlay> -->
-      <!-- </v-parallax> -->
-      <!-- <v-card elevation="0" class="rounded-xl white mt-n5">
-        <v-container> -->
-          <Nuxt />
-        <!-- </v-container>
-      </v-card> -->
+      <Nuxt />
     </v-main>
   </v-app>
 </template>
 
 <script>
+import { mapActions } from 'vuex'
 export default {
   name: 'DefaultLayout',
+  mounted() {
+    this.getEvents()
+    this.getTags()
+  },
+  methods: {
+    ...mapActions(`events`, ['getEvents']),
+    ...mapActions(`tags`, ['getTags']),
+  },
 }
 </script>
