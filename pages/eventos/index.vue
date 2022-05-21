@@ -2,7 +2,12 @@
   <div>
     <v-container class="mt-6">
       <v-row>
-        <v-col cols="12" sm="6" md="4">
+        <v-col>
+          <h2 class="text-h5 font-weight-bold black11--text">Encontre os melhores rolês da cidade</h2>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col cols="12">
           <v-text-field
             v-model="search"
             label="Buscar eventos"
@@ -15,11 +20,32 @@
             @keyup="nameFilter = search"
           >
           </v-text-field>
+          <span>
+          </span>
+          <v-slide-group>
+            <v-slide-item
+              v-for="categorie in categories"
+              :key="categorie.id"
+              v-slot="{ active, toggle }"
+            >
+              <v-btn
+                class="mx-2"
+                :input-value="active"
+                active-class="primary white--text"
+                color="primary"
+                :outlined="categorieSelected !== categorie.id"
+                rounded
+                @click="toggle; categorieSelected = categorie.id"
+              >
+                {{ categorie.description }}
+              </v-btn>
+            </v-slide-item>
+          </v-slide-group>
         </v-col>
       </v-row>
       <v-row>
         <v-col cols="12">
-          <EventList :name-filter="nameFilter" />
+          <EventList :name-filter="nameFilter" :tag-filter="categorieSelected" />
         </v-col>
       </v-row>
     </v-container>
@@ -39,6 +65,7 @@ export default {
     search: '',
     nameFilter: '',
     categories: [],
+    categorieSelected: null,
     // subTags: [],
     // subTagsSelected: null,
   }),

@@ -5,9 +5,8 @@
       :key="event.id"
       cols="12"
       sm="6"
-      md="4"
-      lg="3"
-      xl="2"
+      lg="4"
+      xl="3"
     >
       <EventCard :event-data="event" />
     </v-col>
