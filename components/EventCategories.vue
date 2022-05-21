@@ -30,15 +30,15 @@
 </template>
 
 <script>
-import { mapState } from 'vuex'
 export default {
   data: () => ({
     model: null,
+    tags: [],
   }),
-  computed: {
-    ...mapState({
-      tags: (state) => state.tags.tags,
-    }),
+  async fetch() {
+    this.tags = await fetch('http://localhost:3001/tags').then((res) =>
+      res.json()
+    )
   },
 }
 </script>

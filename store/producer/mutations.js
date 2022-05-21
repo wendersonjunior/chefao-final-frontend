@@ -1,6 +1,5 @@
 export default {
-  SET_PRODUCER(state, payload) {
-    console.log(payload);
-    state.producer = payload;
+  SET_PRODUCER(state, data) {
+    state.producer = data;
   }
 }

@@ -1,4 +1,4 @@
-import colors from 'vuetify/es5/util/colors'
+// import colors from 'vuetify/es5/util/colors'
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -21,7 +21,9 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [
+    { src: '~/plugins/vuex-persist.js', mode: 'client' }
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -45,12 +47,34 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    '@nuxtjs/auth'
   ],
+  auth: {
+    strategies: {
+      local: {
+        token: {
+          property: 'accessToken', // No response do endpoint de login, qual propriedade está contido o token
+        },
+        user: {
+          property: 'user' // No endpoint do usuário, qual propriedade está contida os dados do usuário logado
+        },
+        endpoints: {
+          login: { url: 'http://localhost:3001/login', method: 'post' },
+          user: { url: 'http://localhost:3001/users/', method: 'get' }
+        }
+      }
+    },
+    redirect: {
+      login: '/produtor/autenticacao', // Rota para página de login
+      logout: '/produtor/autenticacao', // Rota para quando fizer logout
+      home: '/produtor/area-do-produtor' // Rota principal
+    },
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: '/',
+    baseURL: '',
   },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
@@ -59,11 +83,13 @@ export default {
     theme: {
       dark: false,
       themes: {
-        dark: {
-          
-        },
         light: {
-
+          primary: '#5A32A4',
+          secondary: '#7045BA',
+          lightgray: '#F5F5F5',
+          mediumgray: '#F8F5F9',
+          back09: '#50475E',
+          black11: '#2A2337'
         }
       },
     },

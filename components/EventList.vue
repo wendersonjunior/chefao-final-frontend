@@ -24,7 +24,8 @@ export default {
   props: {
     tagFilter: {
       type: String,
-      required: true,
+      required: false,
+      default: '',
     },
     subTagFilter: {
       type: Number,
@@ -36,6 +37,16 @@ export default {
       required: false,
       default: '',
     },
+    producerFilter: {
+      type: String,
+      required: false,
+      default: '',
+    },
+    requiredProducerId: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
   },
   data: () => ({
     eventList: [],
@@ -43,13 +54,28 @@ export default {
     tagList: [],
   }),
   async fetch() {
-    this.eventList = await fetch(
-      `http://localhost:3001/events/?tag=${this.tagFilter}`
-    ).then((res) => res.json())
+    let filters = ''
+    if (this.tagFilter) {
+      filters = `?tag=${this.tagFilter}`
+    }
+    if (this.producerFilter) {
+      filters = `?producer=${this.producerFilter}`
+    }
+
+    if (this.requiredProducerId && !this.producerFilter) {
+      return
+    } else {
+      this.eventList = await fetch(
+        'http://localhost:3001/events/' + filters
+      ).then((res) => res.json())
+    }
     this.currentEventList = this.eventList
   },
   watch: {
     nameFilter() {
+      this.findEvents()
+    },
+    tagFilter() {
       this.findEvents()
     },
     subTagFilter() {
@@ -60,15 +86,20 @@ export default {
     filterEventsByName(name) {
       name = name.toUpperCase()
       if (name) {
-        this.currentEventList = this.eventList.filter((event) =>
+        this.currentEventList = this.currentEventList.filter((event) =>
           event.name.toUpperCase().includes(name)
         )
-      } else {
-        this.currentEventList = this.eventList
       }
-      if (this.subTagFilter) {
-        this.filterEventsBySubtag(this.subTagFilter)
+      this.filterEventsBySubtag(this.subTagFilter)
+    },
+    filterEventsByTag(tag) {
+      tag = Number.parseInt(tag)
+      if (tag) {
+        this.currentEventList = this.currentEventList.filter(
+          (event) => event.tag === tag
+        )
       }
+      this.filterEventsByName(this.nameFilter)
     },
     filterEventsBySubtag(subTag) {
       if (subTag) {
@@ -79,7 +110,8 @@ export default {
       }
     },
     findEvents() {
-      this.filterEventsByName(this.nameFilter)
+      this.currentEventList = this.eventList
+      this.filterEventsByTag(this.tagFilter)
     },
   },
 }

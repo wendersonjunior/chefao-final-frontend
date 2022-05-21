@@ -1,6 +1,8 @@
 <template>
   <v-col cols="12">
-    <h2 class="text-center darken--text text--darken-4">Acessar área do produtor</h2>
+    <h2 class="text-center darken--text text--darken-4">
+      Acessar área do produtor
+    </h2>
     <v-form ref="form" v-model="valid" lazy-validation class="mt-8">
       <v-text-field
         v-model="email"
@@ -30,6 +32,11 @@
       >
         Acessar
       </v-btn>
+      <NuxtLink to="/produtor/cadastro" class="text-decoration-none">
+        <v-btn block outlined color="primary" class="mr-2 mt-4"
+          >Cadastre-se</v-btn
+        >
+      </NuxtLink>
     </v-form>
   </v-col>
 </template>
@@ -43,33 +50,39 @@ export default {
     email: '',
     password: '',
     show: false,
-    hasError: "",
+    hasError: '',
     rules: {
       required: (value) => !!value || 'Este campo é obrigatório.',
       min: (v) => v.length >= 8 || 'Senha mínima de 8 caracteres.',
       mail: (v) => /.+@.+\..+/.test(v) || 'E-mail inválido.',
     },
   }),
-
   methods: {
     validate() {
+      this.loading = true
       if (this.$refs.form.validate()) {
-        const auth = this.authentication(this.email, this.password);
-        auth.then((res) => {
-          if (res.length > 0) {
-            localStorage.name = `${res[0].name} ${res[0].lastName}`;
-            localStorage.id = res[0].id;
-          } else {
-            this.hasError = "Login ou senha inválido, tenta novamente"
-          }
-        })
+        this.getProducer()
       }
     },
-    async authentication(email, password) {
-      const auth = await this.$axios.$get(
-        `http://localhost:3001/producers/?email=${email}&password=${password}`
-      )
-      return auth
+    getProducer() {
+      const login = {
+        email: this.email,
+        password: this.password,
+      }
+      this.$auth
+        .loginWith('local', { data: login })
+        .then((res) => {
+          this.$auth.setUser(res.data.user);
+        })
+        .catch((err) => console.log(err))
+      // this.$store.dispatch('producer/getProducer', data)
+      // .then((res) => {
+      //   this.$store.commit('producer/SET_PRODUCER', res[0]);
+      //   window.location.href = "area-do-produtor"
+      // })
+      // .finally(() => {
+      //   this.loading = false;
+      // })
     },
   },
 }

@@ -36,6 +36,7 @@
         @click:append="show = !show"
       ></v-text-field>
       <span v-if="hasError" class="caption red--text">{{ hasError }}</span>
+      <span v-if="success" class="caption green--text">{{ success }}</span>
       <v-btn
         :disabled="!valid || loading"
         large
@@ -46,13 +47,7 @@
         CADASTRAR
       </v-btn>
       <NuxtLink to="/produtor/autenticacao" class="text-decoration-none">
-        <v-btn
-          large
-          outlined
-          color="primary"
-          block
-          class="mt-4"
-        >
+        <v-btn large outlined color="primary" block class="mt-4">
           Voltar para login
         </v-btn>
       </NuxtLink>
@@ -73,6 +68,7 @@ export default {
     password: '',
     show: false,
     hasError: '',
+    success: '',
     rules: {
       required: (value) => !!value || 'Este campo é obrigatório.',
       min: (v) => v.length >= 8 || 'Senha mínima de 8 caracteres.',
@@ -83,30 +79,26 @@ export default {
   methods: {
     validate() {
       if (this.$refs.form.validate()) {
-        this.valid = true;
-        const createUser = this.createUser(
-          this.name,
-          this.lastName,
-          this.email,
-          this.password
-        )
-        createUser.then((res) => {
-          console.log(res);
-          // if (res.length > 0) {
-          // } else {
-          //   this.hasError = 'Erro ao cadastrar usuário'
-          // }
-        })
+        this.loading = true
+        this.createProducer();
       }
     },
-    async createUser(name, lastName, email, password) {
-      const createProducer = await this.$axios.$post('http://localhost:3001/producers', {
-        name,
-        lastName,
-        email,
-        password,
-      })
-      return createProducer
+    createProducer() {
+      const data = {
+        name: this.name,
+        lastName: this.lastName,
+        password: this.password,
+        email: this.email,
+      }
+      this.$store
+        .dispatch('producer/createProducer', data)
+        .then(() => {
+          this.success =
+            'Produtor cadastrado com sucesso! Volte para tela de login e acesse a plataforma :)'
+        })
+        .finally(() => {
+          this.loading = false;
+        })
     },
   },
 }

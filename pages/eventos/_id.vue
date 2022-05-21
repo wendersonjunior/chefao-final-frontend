@@ -59,11 +59,11 @@ export default {
   }),
   async fetch() {
     this.categorie = await fetch(
-      `http://localhost:3001/tags/${this.$route.params.id}?name_like=${this.search}`
-    ).then((res) => res.json())
+      `http://localhost:3001/tags/${this.$route.params.id}`
+    ).then((res) => res.json());
     this.subTags = await fetch(
       `http://localhost:3001/subtags/?tag=${this.$route.params.id}`
-    ).then((res) => res.json())
+    ).then((res) => res.json());
   },
 }
 </script>
