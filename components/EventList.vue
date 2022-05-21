@@ -84,8 +84,8 @@ export default {
   },
   methods: {
     filterEventsByName(name) {
-      name = name.toUpperCase()
       if (name) {
+        name = name.toUpperCase();
         this.currentEventList = this.currentEventList.filter((event) =>
           event.name.toUpperCase().includes(name)
         )
@@ -93,8 +93,8 @@ export default {
       this.filterEventsBySubtag(this.subTagFilter)
     },
     filterEventsByTag(tag) {
-      tag = Number.parseInt(tag)
       if (tag) {
+        tag = Number.parseInt(tag);
         this.currentEventList = this.currentEventList.filter(
           (event) => event.tag === tag
         )

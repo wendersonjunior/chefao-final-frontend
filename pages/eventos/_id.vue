@@ -45,7 +45,7 @@
 import EventList from '@/components/EventList'
 
 export default {
-  name: 'EventPage',
+  name: 'EventByIdPage',
   components: {
     EventList,
   },

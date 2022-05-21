@@ -18,7 +18,7 @@
         </v-row>
       </v-container>
     </v-app-bar> -->
-    <v-main>
+    <v-main class="white">
       <Nuxt />
     </v-main>
   </v-app>

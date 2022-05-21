@@ -15,7 +15,7 @@
                 height="300"
                 width="200"
                 cover
-                class="img-banner rounded-lg"
+                class="img-bannerl"
               >
               </v-img>
               <p class="body-1 grey--text text--darken-4 text-center mt-2">
