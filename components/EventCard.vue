@@ -52,7 +52,7 @@
         >
         </v-img>
         <div class="d-flex flex-column justify-center ml-2">
-          <h2 class="body-1 black11--text"> {{ eventData.name }}</h2>
+          <h2 class="body-1 black11--text font-weight-medium"> {{ eventData.name }}</h2>
           <span class="caption black09--text"> 
             {{ $moment(eventData.date).format('dddd') }}, 
             {{ $moment(eventData.date).format('LL') }} - {{ eventData.schedule }}

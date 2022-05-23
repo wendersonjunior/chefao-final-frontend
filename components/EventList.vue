@@ -22,9 +22,9 @@ export default {
   },
   props: {
     tagFilter: {
-      type: String,
+      type: Number,
       required: false,
-      default: '',
+      default: null,
     },
     subTagFilter: {
       type: Number,

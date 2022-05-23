@@ -20,8 +20,7 @@
             @keyup="nameFilter = search"
           >
           </v-text-field>
-          <span>
-          </span>
+          
           <v-slide-group>
             <v-slide-item
               v-for="categorie in categories"
@@ -35,12 +34,18 @@
                 color="primary"
                 :outlined="categorieSelected !== categorie.id"
                 rounded
-                @click="toggle; categorieSelected = categorie.id"
+                @click="toggle; setCategorie(categorie.id)"
               >
                 {{ categorie.description }}
               </v-btn>
             </v-slide-item>
           </v-slide-group>
+        </v-col>
+        <v-col cols="12">
+          <div class="secondary pa-4 rounded-xl">
+            <h2 class="text-h6 font-weight-bold white--text">Bombando 🔥</h2>
+            <FeaturedEvents />
+          </div>
         </v-col>
       </v-row>
       <v-row>
@@ -54,11 +59,13 @@
 
 <script>
 import EventList from '@/components/EventList'
+import FeaturedEvents from '@/components/FeaturedEvents'
 
 export default {
   name: 'EventPage',
   components: {
     EventList,
+    FeaturedEvents
   },
   props: {},
   data: () => ({
@@ -77,6 +84,15 @@ export default {
     //   `http://localhost:3001/subtags/?tag=${this.$route.params.id}`
     // ).then((res) => res.json());
   },
+  methods: {
+    setCategorie(id) {
+      if (this.categorieSelected === id) {
+        this.categorieSelected = null;
+      } else {
+        this.categorieSelected = id;
+      }
+    }
+  }
 }
 </script>
 
