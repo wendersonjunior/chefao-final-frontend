@@ -110,7 +110,7 @@ export default {
     },
     findEvents() {
       this.currentEventList = this.eventList
-      this.filterEventsByTag(this.tagFilter)
+      this.filterEventsByTag(this.tagFilter);
     },
   },
 }

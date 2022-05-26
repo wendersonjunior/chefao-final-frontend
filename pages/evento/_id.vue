@@ -47,23 +47,46 @@
         <v-sheet
           height="200px"
         >
-        <v-container>
-          <v-row>
-            <v-col cols="12">
-              <v-btn
-                text
-                color="red"
-                icon
-                @click="buyTickets = !buyTickets"
-              >
-                <v-icon>mdi-close</v-icon>
-              </v-btn>
-            </v-col>
-            <v-col cols="12">
-              Compre seu ingresso aqui
-            </v-col>
-          </v-row>
-        </v-container>
+          <div class="d-flex justify-end pt-3 pr-3">
+            <v-btn
+              text
+              color="red"
+              icon
+              @click="buyTickets = !buyTickets"
+            >
+              <v-icon>mdi-close</v-icon>
+            </v-btn>
+          </div>
+          <v-container>
+            <v-row>
+              <v-col v-for="(ticket, index) in event.tickets" :key="index" cols="12">
+                 <v-card
+                  v-if="ticket.platform === 'Sympla'"
+                  class="mx-auto rounded-lg elevation-0 pa-2"
+                  height="100%"
+                  color="mediumgray"
+                >
+                  <div class="d-flex justify-between">
+                    <div class="d-flex">
+                      <v-img
+                        max-height="50"
+                        max-width="50"
+                        src="sympla-logo.png"
+                      >
+                      </v-img>
+                      <div class="d-flex flex-column justify-center ml-2">
+                        <h2 class="body-1 black11--text font-weight-medium"> Disponível no Sympla</h2>
+                        <span class="caption black09--text"> 
+                          A partir de {{ ticket.price }}
+                        </span>
+                      </div>
+                    </div>
+                    <v-btn>Comprar</v-btn>
+                  </div>
+                </v-card>
+              </v-col>
+            </v-row>
+          </v-container>
         </v-sheet>
       </v-bottom-sheet>
       <v-row>

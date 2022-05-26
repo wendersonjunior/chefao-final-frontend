@@ -78,7 +78,6 @@ export default {
 .card-shadow {
   transition: all 0.4s ease;
 }
-
 .card-shadow:not(.on-hover) {
   box-shadow: 0px 0px 8px 0px #cecececf !important;
 }
