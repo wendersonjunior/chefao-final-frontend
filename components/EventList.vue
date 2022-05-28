@@ -41,6 +41,16 @@ export default {
       required: false,
       default: '',
     },
+    dateFilter: {
+      type: String,
+      required: false,
+      default: '',
+    },
+    valueFilter: {
+      type: Number,
+      required: false,
+      default: null,
+    },
     requiredProducerId: {
       type: Boolean,
       required: false,
@@ -80,16 +90,21 @@ export default {
     subTagFilter() {
       this.findEvents()
     },
+    dateFilter() {
+      this.findEvents()
+    },
+    valueFilter() {
+      this.findEvents()
+    }
   },
   methods: {
-    filterEventsByName(name) {
-      if (name) {
-        name = name.toUpperCase();
+    filterByDate(date) {
+      if (date) {
         this.currentEventList = this.currentEventList.filter((event) =>
-          event.name.toUpperCase().includes(name)
+          event.date.includes(date)
         )
-      }
-      this.filterEventsBySubtag(this.subTagFilter)
+      };
+      this.filterEventsByTag(this.tagFilter);
     },
     filterEventsByTag(tag) {
       if (tag) {
@@ -100,17 +115,33 @@ export default {
       }
       this.filterEventsByName(this.nameFilter)
     },
-    filterEventsBySubtag(subTag) {
-      if (subTag) {
-        this.currentEventList = this.currentEventList.filter(
-          (event) =>
-            event.subtags.find((element) => element.id === subTag) !== undefined
+    filterEventsByName(name) {
+      if (name) {
+        name = name.toUpperCase();
+        this.currentEventList = this.currentEventList.filter((event) =>
+          event.name.toUpperCase().includes(name)
         )
       }
+      this.filterByValue(this.valueFilter)
     },
+    filterByValue(value) {
+      if (value) {
+        this.currentEventList = this.currentEventList.filter((event) =>
+          event.ticketPrice <= value
+        )
+      };
+    },
+    // filterEventsBySubtag(subTag) {
+    //   if (subTag) {
+    //     this.currentEventList = this.currentEventList.filter(
+    //       (event) =>
+    //         event.subtags.find((element) => element.id === subTag) !== undefined
+    //     )
+    //   }
+    // },
     findEvents() {
       this.currentEventList = this.eventList
-      this.filterEventsByTag(this.tagFilter);
+      this.filterByDate(this.dateFilter);
     },
   },
 }

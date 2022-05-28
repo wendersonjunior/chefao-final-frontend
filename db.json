@@ -2,63 +2,43 @@
   "tags": [
     {
       "id": 1,
-      "description": "Shows e festivais",
-      "banner": "https://images.sympla.com.br/61655d235b08e.jpg",
-      "text": "Mussum Ipsum, cacilds vidis litro abertis. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Suco de cevadiss deixa as pessoas mais interessantis.A ordem dos tratores não altera o pão duris.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose."
+      "description": "Festivais"
     },
     {
       "id": 2,
-      "description": "Teatro e comédia",
-      "banner": "https://images.sympla.com.br/61655c321f3dd.jpg",
-      "text": "Mussum Ipsum, cacilds vidis litro abertis. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Suco de cevadiss deixa as pessoas mais interessantis.A ordem dos tratores não altera o pão duris.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose."
+      "description": "Shows"
     },
     {
       "id": 3,
-      "description": "Infatil e família",
-      "banner": "https://images.sympla.com.br/61655bcb2a098.jpg",
-      "text": "Mussum Ipsum, cacilds vidis litro abertis. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Suco de cevadiss deixa as pessoas mais interessantis.A ordem dos tratores não altera o pão duris.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose."
+      "description": "São João"
     },
     {
       "id": 4,
-      "description": "Gastronomia",
-      "banner": "https://images.sympla.com.br/61655e17a3623.jpg",
-      "text": "Mussum Ipsum, cacilds vidis litro abertis. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Suco de cevadiss deixa as pessoas mais interessantis.A ordem dos tratores não altera o pão duris.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose."
+      "description": "Exposições"
     },
     {
       "id": 5,
-      "description": "Esportes",
-      "banner": "https://images.sympla.com.br/61655d62aa0e9.jpg",
-      "text": "Mussum Ipsum, cacilds vidis litro abertis. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Suco de cevadiss deixa as pessoas mais interessantis.A ordem dos tratores não altera o pão duris.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose."
+      "description": "Festas"
     },
     {
       "id": 6,
-      "description": "Lazer e turismo",
-      "banner": "https://images.sympla.com.br/61655cd018c97.jpg",
-      "text": "Mussum Ipsum, cacilds vidis litro abertis. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Suco de cevadiss deixa as pessoas mais interessantis.A ordem dos tratores não altera o pão duris.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose."
+      "description": "Teatro"
     },
     {
       "id": 7,
-      "description": "Bares e baladas",
-      "banner": "https://images.sympla.com.br/61655e9811c7a.jpg",
-      "text": "Mussum Ipsum, cacilds vidis litro abertis. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Suco de cevadiss deixa as pessoas mais interessantis.A ordem dos tratores não altera o pão duris.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose."
+      "description": "Religião e espiritualidade"
     },
     {
       "id": 8,
-      "description": "Eventos online",
-      "banner": "https://images.sympla.com.br/61655c5b0cbbe.jpg",
-      "text": "Mussum Ipsum, cacilds vidis litro abertis. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Suco de cevadiss deixa as pessoas mais interessantis.A ordem dos tratores não altera o pão duris.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose."
+      "description": "Esportes"
     },
     {
       "id": 9,
-      "description": "Religião e espiritualidade",
-      "banner": "https://images.sympla.com.br/61655def86a68.jpg",
-      "text": "Mussum Ipsum, cacilds vidis litro abertis. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Suco de cevadiss deixa as pessoas mais interessantis.A ordem dos tratores não altera o pão duris.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose."
+      "description": "Gastronomia"
     },
     {
       "id": 10,
-      "description": "Cursos e workshops",
-      "banner": "https://images.sympla.com.br/61655d94491e1.jpg",
-      "text": "Mussum Ipsum, cacilds vidis litro abertis. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget.Suco de cevadiss deixa as pessoas mais interessantis.A ordem dos tratores não altera o pão duris.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose."
+      "description": "Dia dos namorados"
     }
   ],
   "subtags": [
@@ -417,16 +397,15 @@
       "ifFree": false,
       "description": "Cupidatat nisi consectetur sint id cupidatat laboris velit reprehenderit ut. Irure sunt non reprehenderit sit nostrud eiusmod exercitation commodo tempor eu officia amet ut. Ea proident ex proident id ex nisi sunt quis elit enim. Elit veniam consequat culpa veniam ullamco nostrud. Tempor qui ea consequat reprehenderit velit nulla et tempor enim id laboris in commodo cupidatat. Id sunt duis enim cupidatat occaecat culpa et exercitation nisi mollit. Sit enim quis tempor ex consequat culpa esse.\r\nDolor nisi sint sunt ipsum deserunt. Consectetur ex fugiat et mollit ex cillum consequat amet. Exercitation ullamco ut aute officia. Dolore quis ea officia consequat veniam. Enim Lorem ex proident in proident eiusmod elit dolore sit do veniam in. Amet consectetur esse velit et exercitation velit consectetur sunt deserunt incididunt. Culpa fugiat pariatur consectetur proident ut consequat occaecat enim ullamco irure dolor dolore reprehenderit.\r\nExcepteur irure eu ad veniam adipisicing ex. Do ad anim quis sit. Magna do qui aute quis cillum cupidatat commodo laboris laborum. Dolor elit ea culpa amet cupidatat et ipsum eiusmod minim irure do exercitation. Magna dolor eiusmod sint consectetur anim magna ea sint in proident. Anim ad excepteur commodo Lorem.\r\n",
       "clicked": 315,
+      "ticketPrice": 22.90,
       "tickets": [
         {
           "platform": "Sympla",
-          "url": "https://www.sympla.com.br/",
-          "price": 19.9
+          "url": "https://www.sympla.com.br/"
         },
         {
           "platform": "Eventim",
-          "url": "https://www.eventim.com.br/",
-          "price": 22.9
+          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -442,16 +421,15 @@
       "ifFree": true,
       "description": "Ipsum esse excepteur consectetur Lorem magna laborum. Quis voluptate esse aliquip velit incididunt labore dolor. Dolore voluptate excepteur deserunt fugiat eu non. Do aliquip culpa dolore aute veniam eu irure adipisicing eu magna aliqua. Mollit ipsum reprehenderit laborum ea quis voluptate. Sint velit nostrud exercitation officia esse fugiat ex incididunt magna.\r\nIn anim laboris fugiat et non ea consectetur. Sunt amet nostrud do proident. Proident ut consequat non est.\r\nEiusmod ex mollit exercitation fugiat. Non nulla pariatur minim occaecat ullamco voluptate eiusmod enim aliquip fugiat nisi. Labore nostrud culpa labore do dolor et reprehenderit nisi officia laboris aliqua laborum deserunt fugiat. Deserunt reprehenderit in veniam culpa pariatur aliqua cillum non in culpa cupidatat proident nisi. Laborum esse incididunt nulla fugiat sunt culpa quis sint ad elit nisi ex velit. Proident dolor nulla aliquip do nisi elit sunt qui magna laborum culpa non qui adipisicing.\r\n",
       "clicked": 735,
+      "ticketPrice": 22.90,
       "tickets": [
         {
           "platform": "Sympla",
-          "url": "https://www.sympla.com.br/",
-          "price": 19.9
+          "url": "https://www.sympla.com.br/"
         },
         {
           "platform": "Eventim",
-          "url": "https://www.eventim.com.br/",
-          "price": 22.9
+          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -467,16 +445,15 @@
       "ifFree": true,
       "description": "Incididunt et ad elit enim est elit incididunt consequat in. Velit aliquip est ea sint qui commodo in enim magna cupidatat. Consectetur duis ex ex esse. Est minim adipisicing esse voluptate magna esse ad aute labore. Exercitation culpa incididunt mollit enim ad et aute amet.\r\nExercitation Lorem aliquip id cillum proident id. Excepteur qui sint tempor sit sit deserunt aute do voluptate. Mollit est eu veniam officia ipsum eiusmod irure magna dolore duis magna cillum.\r\nReprehenderit deserunt excepteur aliquip ad anim pariatur nisi ipsum. Sit reprehenderit do commodo mollit nulla elit Lorem occaecat ipsum in id nisi excepteur nostrud. Et in magna pariatur nostrud quis anim aliquip laboris id id sunt veniam minim. Magna laborum incididunt ad et ad est elit irure aute minim ipsum. Nisi amet in ipsum voluptate ea exercitation deserunt amet qui ad sint aliquip minim irure.\r\n",
       "clicked": 707,
+      "ticketPrice": 22.90,
       "tickets": [
         {
           "platform": "Sympla",
-          "url": "https://www.sympla.com.br/",
-          "price": 19.9
+          "url": "https://www.sympla.com.br/"
         },
         {
           "platform": "Eventim",
-          "url": "https://www.eventim.com.br/",
-          "price": 22.9
+          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -492,16 +469,15 @@
       "ifFree": false,
       "description": "Est cupidatat ut incididunt deserunt in nisi. Et proident laboris deserunt cupidatat minim minim amet. Excepteur amet nisi culpa est voluptate commodo laboris pariatur nulla id elit.\r\nDolor enim sunt exercitation tempor sit. Et irure et occaecat ut id anim Lorem commodo adipisicing non. Proident laborum elit aute excepteur.\r\nDo eiusmod labore quis culpa excepteur. Cillum mollit minim adipisicing qui ex sit laboris eiusmod aliqua. Ad eu deserunt esse in deserunt elit. Excepteur do et commodo tempor culpa dolore et incididunt consectetur ad amet amet dolore in. Tempor ea velit amet mollit mollit incididunt nostrud est deserunt reprehenderit cillum.\r\n",
       "clicked": 478,
+      "ticketPrice": 22.90,
       "tickets": [
         {
           "platform": "Sympla",
-          "url": "https://www.sympla.com.br/",
-          "price": 19.9
+          "url": "https://www.sympla.com.br/"
         },
         {
           "platform": "Eventim",
-          "url": "https://www.eventim.com.br/",
-          "price": 22.9
+          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -517,16 +493,15 @@
       "ifFree": true,
       "description": "Eiusmod aliquip nulla dolor in ullamco. In reprehenderit eiusmod adipisicing ullamco nulla. Labore laboris magna aliqua deserunt. In ex laborum ullamco nisi culpa laboris. Mollit nostrud nulla fugiat deserunt proident eu nisi veniam commodo aute non. Sint mollit ea amet aliquip adipisicing esse esse proident ad. Eu laborum consectetur sunt labore cupidatat amet culpa adipisicing voluptate cupidatat ut cillum irure minim.\r\nAmet pariatur consectetur do consectetur quis occaecat id sunt nostrud ad exercitation eu aliqua. Lorem laborum eu labore esse aute qui est. Consectetur et adipisicing id sunt minim eiusmod aute cupidatat esse deserunt et officia consequat occaecat. Consequat occaecat deserunt occaecat anim sunt culpa magna pariatur. Duis ut nostrud non ex eiusmod elit pariatur ullamco veniam nisi sint nisi.\r\nDolor esse id do tempor duis aute do sunt irure est laborum velit commodo et. In cillum laboris pariatur non duis. Do sit nulla labore in deserunt. Cupidatat adipisicing aliqua exercitation ut id velit esse culpa proident adipisicing commodo fugiat magna amet. Nostrud officia deserunt veniam nulla excepteur commodo do sit.\r\n",
       "clicked": 161,
+      "ticketPrice": 22.90,
       "tickets": [
         {
           "platform": "Sympla",
-          "url": "https://www.sympla.com.br/",
-          "price": 19.9
+          "url": "https://www.sympla.com.br/"
         },
         {
           "platform": "Eventim",
-          "url": "https://www.eventim.com.br/",
-          "price": 22.9
+          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -542,16 +517,15 @@
       "ifFree": false,
       "description": "Ea excepteur incididunt ea irure nulla aliquip ad cillum voluptate. Sunt culpa reprehenderit do ipsum aute sint ad pariatur aute fugiat voluptate. Ex in id consectetur pariatur et do. In sunt minim do qui officia nostrud et mollit cillum dolor do consequat sunt adipisicing. Sunt non adipisicing excepteur consectetur quis magna est mollit adipisicing tempor velit irure. Est labore nisi ullamco cupidatat consectetur consectetur commodo anim occaecat adipisicing consequat do.\r\nDolor quis magna do irure sunt nisi elit amet adipisicing aliqua reprehenderit. Reprehenderit exercitation amet laboris pariatur labore deserunt quis eu ipsum. Laborum quis magna ex cillum commodo laborum irure fugiat et.\r\nConsequat dolor eiusmod commodo non elit proident eiusmod fugiat nulla adipisicing in est aute pariatur. Incididunt aliqua esse velit adipisicing labore nulla dolore aliqua cupidatat. Elit aute laboris aliquip laboris. Do eu ea tempor quis laborum ipsum nostrud quis quis proident cillum Lorem exercitation aliquip. Consequat labore laboris exercitation eu labore eiusmod tempor nulla. Duis veniam laboris proident irure aliquip irure laborum ex. Tempor quis tempor est amet amet aute sint duis deserunt incididunt pariatur commodo.\r\n",
       "clicked": 724,
+      "ticketPrice": 22.90,
       "tickets": [
         {
           "platform": "Sympla",
-          "url": "https://www.sympla.com.br/",
-          "price": 19.9
+          "url": "https://www.sympla.com.br/"
         },
         {
           "platform": "Eventim",
-          "url": "https://www.eventim.com.br/",
-          "price": 22.9
+          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -567,16 +541,15 @@
       "ifFree": false,
       "description": "Qui ea nostrud magna fugiat cillum sint quis laboris fugiat et veniam Lorem labore. Sunt eu cupidatat consequat velit eiusmod non qui mollit proident ea amet ullamco reprehenderit. In non aliquip aute et sint nulla laboris ad ea. Ea ut incididunt consectetur eu mollit ullamco.\r\nEnim excepteur do occaecat laboris cillum excepteur non aliqua cillum velit id dolor. Pariatur reprehenderit fugiat aliquip mollit do. Nostrud consequat amet aliqua pariatur. Elit cillum aliquip nostrud labore id enim labore laborum sint qui ullamco cillum veniam est. Nisi culpa consequat laboris in ut nostrud irure velit quis proident. Magna tempor cillum consequat irure labore non velit occaecat ex anim occaecat eu. Ex elit ipsum officia quis.\r\nIpsum officia id ipsum proident adipisicing laboris. Minim non non proident sint exercitation incididunt occaecat dolore consectetur adipisicing incididunt magna Lorem voluptate. Ipsum anim amet occaecat culpa anim esse cillum irure deserunt enim dolore. Exercitation laboris do do consectetur consequat nisi deserunt aliqua eu voluptate officia. Ad aute id ea nostrud pariatur nostrud labore aliquip nulla sint. Non adipisicing laborum eiusmod tempor ut in. Quis cupidatat velit cupidatat ullamco.\r\n",
       "clicked": 22,
+      "ticketPrice": 22.90,
       "tickets": [
         {
           "platform": "Sympla",
-          "url": "https://www.sympla.com.br/",
-          "price": 19.9
+          "url": "https://www.sympla.com.br/"
         },
         {
           "platform": "Eventim",
-          "url": "https://www.eventim.com.br/",
-          "price": 22.9
+          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -592,16 +565,15 @@
       "ifFree": false,
       "description": "Ex elit cillum sit nisi. Aute excepteur culpa nostrud laboris incididunt quis aliqua ea quis incididunt. Ea laborum cillum sint proident. Et est reprehenderit sint minim amet id veniam ex dolor ad quis. Aute Lorem esse eiusmod occaecat ex laboris laboris laborum sunt commodo enim anim. Dolore elit sit laboris proident ullamco enim excepteur excepteur quis eu amet mollit.\r\nAnim Lorem proident pariatur deserunt anim amet in duis irure qui commodo qui aliqua. Occaecat nulla pariatur exercitation Lorem enim. Pariatur exercitation aliquip enim id laboris nisi reprehenderit aliquip nostrud. Excepteur excepteur id Lorem nulla amet in consequat in exercitation dolor dolor deserunt aliquip. Sit nulla tempor anim id fugiat.\r\nSit deserunt aute veniam do qui. Aliquip fugiat fugiat commodo excepteur reprehenderit ipsum tempor dolore velit. Reprehenderit nisi ad anim duis occaecat. Exercitation et sunt magna pariatur.\r\n",
       "clicked": 649,
+      "ticketPrice": 22.90,
       "tickets": [
         {
           "platform": "Sympla",
-          "url": "https://www.sympla.com.br/",
-          "price": 19.9
+          "url": "https://www.sympla.com.br/"
         },
         {
           "platform": "Eventim",
-          "url": "https://www.eventim.com.br/",
-          "price": 22.9
+          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -617,16 +589,15 @@
       "ifFree": true,
       "description": "Laborum anim incididunt culpa dolor amet mollit culpa qui esse minim nulla. Nostrud ut commodo duis fugiat occaecat duis ex esse esse consequat ullamco velit ipsum. Est incididunt nostrud officia nisi aliqua. Velit ullamco ex id non eu adipisicing officia. Officia eu aute nisi ut laborum sint commodo eiusmod.\r\nNostrud ex proident ullamco do. Velit dolor tempor duis cupidatat magna pariatur reprehenderit nisi sint non cillum veniam irure. Ut aute sit fugiat anim dolor consectetur. Cupidatat et officia commodo deserunt. Sint proident voluptate elit enim magna ex incididunt. Est laboris qui minim in ut reprehenderit sunt ea.\r\nAliquip voluptate quis voluptate veniam nostrud labore labore excepteur ea fugiat. Pariatur amet non deserunt fugiat nulla labore dolore nulla eu aute. Dolor est culpa anim nulla sunt mollit anim velit ad voluptate cillum. Deserunt ut reprehenderit consectetur eiusmod.\r\n",
       "clicked": 35,
+      "ticketPrice": 22.90,
       "tickets": [
         {
           "platform": "Sympla",
-          "url": "https://www.sympla.com.br/",
-          "price": 19.9
+          "url": "https://www.sympla.com.br/"
         },
         {
           "platform": "Eventim",
-          "url": "https://www.eventim.com.br/",
-          "price": 22.9
+          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -642,16 +613,15 @@
       "ifFree": false,
       "description": "Commodo nostrud veniam do deserunt qui cupidatat enim esse laboris. Qui ut in cillum ipsum incididunt minim culpa ipsum laboris ullamco officia. Ea reprehenderit officia culpa ad id. Qui officia dolore esse velit.\r\nTempor ullamco nisi elit et aute qui enim reprehenderit in quis esse. Officia adipisicing mollit cillum culpa veniam qui qui dolor est. Excepteur cillum qui nisi dolor deserunt in eiusmod aute cillum laborum. Adipisicing minim cupidatat ad aute nostrud exercitation consequat. Et mollit commodo qui voluptate voluptate esse qui consequat ut laborum esse consectetur. Amet id dolore enim aute est excepteur.\r\nVelit dolor in eiusmod velit dolor in nostrud proident consectetur Lorem aliquip fugiat quis. Fugiat in reprehenderit dolor non. Magna Lorem et officia veniam deserunt occaecat in nostrud tempor commodo qui id. Quis elit commodo ex aliqua occaecat tempor esse id ex. Voluptate velit aliqua cillum ut pariatur. Lorem est tempor minim mollit magna pariatur ea incididunt nisi in pariatur consequat dolore qui.\r\n",
       "clicked": 290,
+      "ticketPrice": 22.90,
       "tickets": [
         {
           "platform": "Sympla",
-          "url": "https://www.sympla.com.br/",
-          "price": 19.9
+          "url": "https://www.sympla.com.br/"
         },
         {
           "platform": "Eventim",
-          "url": "https://www.eventim.com.br/",
-          "price": 22.9
+          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -667,16 +637,15 @@
       "ifFree": false,
       "description": "Ad irure sit aliquip ut aliqua. Deserunt ad exercitation Lorem in ipsum labore. Id sunt aliqua consequat sit dolore laboris occaecat elit minim ipsum ad.\r\nEsse ex do esse enim ullamco dolor tempor sit veniam. Enim cupidatat excepteur Lorem labore ipsum eu amet mollit elit nostrud dolor laboris excepteur. Nulla sint laboris laborum laborum enim veniam reprehenderit duis elit occaecat ipsum. Laboris pariatur amet laborum pariatur voluptate esse consequat labore Lorem Lorem. Aliqua in incididunt commodo dolor fugiat culpa cupidatat nisi excepteur fugiat cupidatat laboris incididunt. Ea proident pariatur ut aliquip officia reprehenderit duis occaecat aliquip dolore qui tempor proident. Reprehenderit cupidatat non esse Lorem anim aute ipsum fugiat laboris laboris tempor qui.\r\nAute reprehenderit sint do occaecat officia laborum aliquip est quis elit fugiat proident ex. Exercitation amet ex fugiat ad exercitation magna ullamco dolore mollit ea deserunt occaecat cupidatat incididunt. Dolor ex laborum commodo fugiat laborum esse ad adipisicing anim proident excepteur elit mollit sint. Occaecat consectetur cillum deserunt duis dolore ullamco.\r\n",
       "clicked": 212,
+      "ticketPrice": 22.90,
       "tickets": [
         {
           "platform": "Sympla",
-          "url": "https://www.sympla.com.br/",
-          "price": 19.9
+          "url": "https://www.sympla.com.br/"
         },
         {
           "platform": "Eventim",
-          "url": "https://www.eventim.com.br/",
-          "price": 22.9
+          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -692,16 +661,15 @@
       "ifFree": true,
       "description": "Exercitation officia mollit pariatur ullamco mollit velit non fugiat et excepteur deserunt aute aliquip ad. Qui deserunt aute non anim minim. Anim qui nostrud dolor irure aliqua. Dolor sunt elit Lorem et. Aliquip ea voluptate qui dolor culpa esse ea aliqua adipisicing. Cupidatat officia cillum officia voluptate qui voluptate irure deserunt pariatur dolore.\r\nOfficia tempor incididunt sit aliqua labore. Do anim sit eu aute consectetur aute. Ex quis nisi aute voluptate sit nisi ipsum labore deserunt aliqua amet laboris dolore. Ad est ex amet labore amet pariatur. Enim amet dolore aliqua non labore eiusmod.\r\nAnim elit sit ut fugiat excepteur exercitation dolor. Et duis aliquip nisi reprehenderit sunt aliqua magna exercitation minim culpa. Aute consectetur minim officia enim laboris amet Lorem excepteur do nulla. Dolore exercitation Lorem ut quis dolore irure sint veniam eu.\r\n",
       "clicked": 530,
+      "ticketPrice": 22.90,
       "tickets": [
         {
           "platform": "Sympla",
-          "url": "https://www.sympla.com.br/",
-          "price": 19.9
+          "url": "https://www.sympla.com.br/"
         },
         {
           "platform": "Eventim",
-          "url": "https://www.eventim.com.br/",
-          "price": 22.9
+          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -717,16 +685,15 @@
       "ifFree": true,
       "description": "Labore quis enim nulla est quis consectetur. Ut et dolore aliqua aute laboris eu officia dolore dolore nulla amet commodo nulla aute. Ullamco pariatur labore anim pariatur magna laboris dolore nisi minim dolore fugiat non ea consequat. Velit ipsum dolor fugiat reprehenderit dolore pariatur. Sit nostrud sit incididunt in duis reprehenderit exercitation consequat consequat officia. Aliqua elit enim ex adipisicing commodo voluptate elit esse qui duis aliqua nostrud ad excepteur. Nisi labore proident consectetur labore non labore esse amet consectetur minim incididunt.\r\nQui et officia quis reprehenderit. Dolore nisi sint ea dolore laboris nostrud proident officia eiusmod veniam sint ex. Occaecat enim laboris duis dolor minim deserunt veniam proident. Cupidatat reprehenderit mollit ut quis esse incididunt incididunt qui. Sit incididunt sunt aute qui eu magna.\r\nTempor dolore reprehenderit veniam exercitation voluptate labore aliquip. Ipsum elit laborum ea labore tempor ipsum ullamco nisi. Cillum dolore fugiat excepteur officia ex laborum mollit culpa. Quis ad commodo duis mollit sint in magna anim fugiat est pariatur duis minim.\r\n",
       "clicked": 645,
+      "ticketPrice": 22.90,
       "tickets": [
         {
           "platform": "Sympla",
-          "url": "https://www.sympla.com.br/",
-          "price": 19.9
+          "url": "https://www.sympla.com.br/"
         },
         {
           "platform": "Eventim",
-          "url": "https://www.eventim.com.br/",
-          "price": 22.9
+          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -742,16 +709,15 @@
       "ifFree": false,
       "description": "Do aliquip fugiat Lorem quis. Duis occaecat velit culpa nisi culpa veniam. Irure eiusmod deserunt velit laborum exercitation nulla commodo reprehenderit qui officia mollit. Labore non mollit non amet est sit id ullamco.\r\nConsequat sunt voluptate nostrud aliqua eiusmod aliqua nostrud laboris officia eu. Elit anim labore irure eiusmod sunt. Consequat Lorem in ipsum labore dolore nostrud labore proident commodo qui adipisicing ad et laboris. Adipisicing ipsum laboris et irure consectetur commodo eiusmod eiusmod labore fugiat enim eiusmod do.\r\nSint exercitation quis veniam eiusmod est ullamco cillum ullamco id. Quis proident laborum id in. Id mollit irure minim velit nostrud elit quis deserunt ullamco amet Lorem cillum.\r\n",
       "clicked": 55,
+      "ticketPrice": 22.90,
       "tickets": [
         {
           "platform": "Sympla",
-          "url": "https://www.sympla.com.br/",
-          "price": 19.9
+          "url": "https://www.sympla.com.br/"
         },
         {
           "platform": "Eventim",
-          "url": "https://www.eventim.com.br/",
-          "price": 22.9
+          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -767,16 +733,15 @@
       "ifFree": false,
       "description": "Velit ad quis pariatur sit ipsum laborum commodo labore commodo ullamco fugiat voluptate. Eu Lorem sint magna ut occaecat qui excepteur laboris ullamco veniam reprehenderit reprehenderit voluptate ea. Ad aliquip incididunt ex amet occaecat laboris. Est officia reprehenderit qui magna esse et.\r\nDuis irure cillum id consequat dolor ea sint sint velit proident et amet proident. Proident sint duis nostrud dolore dolor sint commodo duis amet aliquip tempor occaecat. Velit qui in duis culpa. Nostrud Lorem velit eiusmod ipsum. Ad ad nulla consequat minim exercitation velit tempor amet in proident voluptate nisi.\r\nIncididunt mollit occaecat laborum commodo adipisicing ut ex eiusmod minim Lorem. Enim excepteur reprehenderit dolor in enim reprehenderit excepteur ullamco dolore ea. Occaecat ea ex aute ad non veniam incididunt eiusmod cupidatat esse non exercitation anim. Labore ipsum eiusmod pariatur amet nulla est fugiat voluptate ex. Lorem ut sint ad esse eiusmod do sunt consequat aute cillum ex deserunt minim aliqua. Ullamco officia ullamco ad qui amet. Non adipisicing et ad officia ad occaecat deserunt eiusmod sit.\r\n",
       "clicked": 718,
+      "ticketPrice": 22.90,
       "tickets": [
         {
           "platform": "Sympla",
-          "url": "https://www.sympla.com.br/",
-          "price": 19.9
+          "url": "https://www.sympla.com.br/"
         },
         {
           "platform": "Eventim",
-          "url": "https://www.eventim.com.br/",
-          "price": 22.9
+          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -792,16 +757,15 @@
       "ifFree": false,
       "description": "Non est dolor eu cupidatat nisi. Non eu culpa laboris sunt fugiat. Lorem est sint dolore cupidatat do ad sunt.\r\nVelit reprehenderit ullamco amet Lorem id minim pariatur aliqua eu sit. Eiusmod nostrud sit proident id laboris velit ad labore fugiat nulla fugiat sunt esse. Laborum ut dolore culpa culpa in. Et elit ex nulla fugiat aliquip eiusmod tempor. Dolor Lorem enim magna proident occaecat adipisicing pariatur. Pariatur nisi enim ullamco adipisicing id dolore velit ipsum ea voluptate exercitation dolore.\r\nCillum tempor excepteur aute ipsum ad. Dolore eu ipsum enim elit incididunt. Ad non duis sint anim cupidatat reprehenderit eu incididunt.\r\n",
       "clicked": 819,
+      "ticketPrice": 22.90,
       "tickets": [
         {
           "platform": "Sympla",
-          "url": "https://www.sympla.com.br/",
-          "price": 19.9
+          "url": "https://www.sympla.com.br/"
         },
         {
           "platform": "Eventim",
-          "url": "https://www.eventim.com.br/",
-          "price": 22.9
+          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -817,16 +781,15 @@
       "ifFree": true,
       "description": "Ut excepteur ipsum aliqua deserunt sint consectetur labore duis cupidatat id ea. Ex Lorem nulla dolor dolore labore voluptate ex dolore laboris id ea adipisicing. Id fugiat duis aute culpa nostrud commodo aliquip dolore magna labore.\r\nEst ea nulla et occaecat in ex culpa officia esse tempor sunt ullamco reprehenderit officia. Do ipsum reprehenderit consectetur qui do Lorem. Id voluptate dolor eu occaecat commodo ea nulla dolore incididunt elit ea. Officia ex amet pariatur magna esse enim. Aliquip minim sunt consectetur laborum sunt ad aliquip adipisicing pariatur consequat enim consectetur sunt irure. Voluptate cupidatat aliquip exercitation eu fugiat ad nulla ad excepteur.\r\nDo consectetur minim amet elit duis nulla dolore aute excepteur nisi aliquip. Aliqua est nulla id deserunt enim sint consectetur exercitation cupidatat sit nisi anim amet. Qui ut minim enim Lorem proident minim anim magna consectetur proident sunt.\r\n",
       "clicked": 481,
+      "ticketPrice": 22.90,
       "tickets": [
         {
           "platform": "Sympla",
-          "url": "https://www.sympla.com.br/",
-          "price": 19.9
+          "url": "https://www.sympla.com.br/"
         },
         {
           "platform": "Eventim",
-          "url": "https://www.eventim.com.br/",
-          "price": 22.9
+          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -842,16 +805,15 @@
       "ifFree": false,
       "description": "Do duis ipsum excepteur reprehenderit labore quis anim. Culpa in sunt Lorem est in tempor. Elit adipisicing amet nulla consectetur anim eiusmod labore sint elit anim. Amet nisi Lorem sint nostrud sint voluptate minim sint quis consequat aute officia excepteur officia. Occaecat anim culpa eu aliquip ipsum sint sit. Aliquip laborum esse nisi aute excepteur voluptate ullamco sunt ea. Sunt ipsum incididunt irure laborum.\r\nIpsum et ad excepteur consequat non incididunt fugiat est cillum sunt ea duis minim. Ipsum cillum dolore proident nostrud nulla laboris et esse fugiat aute consectetur eiusmod. Consectetur laborum do amet do dolor ex excepteur. Irure do deserunt nostrud minim et minim laborum id nostrud.\r\nEst consequat est non ex. Eiusmod eu consectetur pariatur tempor dolore eiusmod est. Esse ex ad anim dolore ea elit pariatur. Officia sunt ut officia occaecat ex et dolore commodo.\r\n",
       "clicked": 221,
+      "ticketPrice": 22.90,
       "tickets": [
         {
           "platform": "Sympla",
-          "url": "https://www.sympla.com.br/",
-          "price": 19.9
+          "url": "https://www.sympla.com.br/"
         },
         {
           "platform": "Eventim",
-          "url": "https://www.eventim.com.br/",
-          "price": 22.9
+          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -867,16 +829,15 @@
       "ifFree": false,
       "description": "Fugiat eiusmod dolor sunt elit et commodo nisi fugiat proident pariatur ut proident. Excepteur labore velit eiusmod consequat. Magna et amet duis ipsum labore pariatur est voluptate. Cupidatat exercitation Lorem magna consectetur aliquip pariatur ipsum aute consequat dolore aliqua.\r\nLaboris mollit velit adipisicing esse dolore pariatur ullamco quis sunt cillum do consectetur anim. Laboris eu Lorem aliquip elit dolor est. Velit pariatur qui pariatur ullamco sunt. Pariatur nulla ut ea do qui commodo occaecat.\r\nEiusmod pariatur eu do non reprehenderit cillum magna anim consequat nisi amet. Ut in labore et quis commodo culpa aliqua minim adipisicing eu amet cupidatat. Mollit laborum dolor consequat cupidatat aliquip occaecat.\r\n",
       "clicked": 6,
+      "ticketPrice": 22.90,
       "tickets": [
         {
           "platform": "Sympla",
-          "url": "https://www.sympla.com.br/",
-          "price": 19.9
+          "url": "https://www.sympla.com.br/"
         },
         {
           "platform": "Eventim",
-          "url": "https://www.eventim.com.br/",
-          "price": 22.9
+          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -892,16 +853,15 @@
       "ifFree": false,
       "description": "Ut elit pariatur anim laboris amet eu culpa pariatur pariatur. Est velit aute irure labore quis et nulla aliqua dolor nostrud. Culpa nulla ad ex aute deserunt proident reprehenderit.\r\nUllamco eiusmod laborum laborum ex Lorem mollit proident quis est dolore. Reprehenderit pariatur sint eiusmod velit sunt. Do quis quis incididunt aute fugiat laborum. Occaecat Lorem deserunt reprehenderit ad aliqua minim consectetur laboris.\r\nNisi aute eu minim nostrud non ut aliqua ea aliqua quis deserunt ea ex. Labore cillum nulla elit minim anim dolore velit veniam dolor ex. Consectetur ea amet fugiat occaecat veniam tempor cupidatat nisi cupidatat pariatur fugiat excepteur aliquip ea.\r\n",
       "clicked": 710,
+      "ticketPrice": 22.90,
       "tickets": [
         {
           "platform": "Sympla",
-          "url": "https://www.sympla.com.br/",
-          "price": 19.9
+          "url": "https://www.sympla.com.br/"
         },
         {
           "platform": "Eventim",
-          "url": "https://www.eventim.com.br/",
-          "price": 22.9
+          "url": "https://www.eventim.com.br/"
         }
       ]
     }
