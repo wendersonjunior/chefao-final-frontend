@@ -4,21 +4,24 @@
       <v-col>
         <CurrentDate />
       </v-col>
+      <v-col class="d-flex align-center justify-end">
+        <NuxtLink to="/produtor/autenticacao" class="text-decoration-none">
+          <v-btn
+            outlined
+            color="primary"
+            large
+            class="text-lowercase rounded-pill body-1"
+          >
+            Sou produtor(a)
+          </v-btn>
+        </NuxtLink>
+      </v-col>
     </v-row>
     <v-row>
       <v-col cols="12">
         <NuxtLink to="/eventos" class="text-decoration-none">
           <div
-            class="
-              d-flex
-              align-center
-              justify-center
-              rounded-pill
-              black11--text
-              mediumgray
-              body-2
-              pa-3
-            "
+            class="d-flex align-center justify-center rounded-pill black11--text mediumgray body-2 pa-3"
           >
             <v-icon left color="primary"> mdi-magnify </v-icon>
             Encontre os melhores rolês da cidade
@@ -37,7 +40,10 @@
             :key="index"
             v-slot="{ active }"
           >
-            <NuxtLink :to="`/evento/${featureEvent.id}`" class="text-decoration-none">
+            <NuxtLink
+              :to="`/evento/${featureEvent.id}`"
+              class="text-decoration-none"
+            >
               <v-card
                 :color="active ? undefined : 'grey lighten-1'"
                 class="mr-4"
@@ -45,16 +51,6 @@
                 width="300"
               >
                 <v-img :src="featureEvent.banner" contain></v-img>
-                <!-- <v-row class="fill-height" align="center" justify="center">
-                  <v-scale-transition>
-                    <v-icon
-                      v-if="active"
-                      color="white"
-                      size="48"
-                      v-text="'mdi-close-circle-outline'"
-                    ></v-icon>
-                  </v-scale-transition>
-                </v-row> -->
               </v-card>
             </NuxtLink>
           </v-slide-item>
@@ -79,16 +75,7 @@
       <v-col cols="12" md="6" lg="4" align-center>
         <NuxtLink to="/eventos" class="text-decoration-none">
           <div
-            class="
-              d-flex
-              align-center
-              justify-center
-              rounded-pill
-              white--text
-              primary
-              body-2
-              pa-3
-            "
+            class="d-flex align-center justify-center rounded-pill white--text primary body-2 pa-3"
           >
             Ver a lista completa
           </div>
