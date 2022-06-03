@@ -10,6 +10,14 @@
     >
       <EventCard :event-data="event" />
     </v-col>
+    <v-col v-if="currentEventList.length === 0" class="text-center">
+      <p class="mt-4 body-1 black11--text font-weight-bold">
+        Não encontramos resultados para o filtro selecionado.
+      </p>
+      <p class="body-2 medium--text font-weight-medium">
+        Tente utilizar algum outro filtro.
+      </p>
+    </v-col>
   </v-row>
 </template>
 

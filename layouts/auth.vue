@@ -19,14 +19,15 @@ export default {
 </script>
 <style scoped lang="scss">
   #bg-auth {
-    width: 100%;
-    height: 100%;
+    background-image: url("../static/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     min-height: 100vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     opacity: 1;
-    background-color: rgb(236, 236, 236);
   }
 
   #content-auth {

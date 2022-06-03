@@ -45,7 +45,7 @@
       </v-fab-transition>
       <v-bottom-sheet v-model="buyTickets">
         <v-sheet
-          height="200px"
+          height="250px"
         >
           <v-container>
             <v-row>
@@ -74,7 +74,7 @@
                       </span>
                     </div>
                   </div>
-                  <v-btn color="primary" small class="rounded-pill" :href="ticket.url">
+                  <v-btn color="primary" medium class="rounded-pill" :href="ticket.url">
                     COMPRAR
                   </v-btn>
                 </v-card>
@@ -102,10 +102,13 @@
                       </span>
                     </div>
                   </div>
-                  <v-btn color="primary" small class="rounded-pill" :href="ticket.url">
+                  <v-btn color="primary" medium class="rounded-pill" :href="ticket.url">
                     COMPRAR
                   </v-btn>
                 </v-card>
+              </v-col>
+              <v-col cols="12">
+                <span class="black09--text caption">Ao clicar no botão você abrirá uma página externa a esse site.</span>
               </v-col>
             </v-row>
           </v-container>

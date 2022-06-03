@@ -1,7 +1,7 @@
 <template>
   <v-col cols="12">
     <h2 class="text-center darken--text text--darken-4">
-      Cadastro de produtor
+      Criar conta como produtor(a)
     </h2>
     <v-form ref="form" v-model="valid" lazy-validation class="mt-8">
       <v-text-field
@@ -58,7 +58,6 @@
 <script>
 export default {
   name: 'ProducerRegister',
-  layout: 'auth',
   data: () => ({
     valid: false,
     loading: false,

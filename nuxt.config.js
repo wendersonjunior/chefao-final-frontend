@@ -88,7 +88,7 @@ export default {
           secondary: '#7045BA',
           lightgray: '#F5F5F5',
           mediumgray: '#F8F5F9',
-          back09: '#50475E',
+          black09: '#50475E',
           black11: '#2A2337'
         }
       },
