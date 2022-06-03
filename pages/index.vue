@@ -114,11 +114,11 @@ export default {
     featureEvents: [],
   }),
   async fetch() {
-    this.events = await fetch('http://localhost:3001/events?_limit=12').then(
+    this.events = await fetch('https://api-squad5.herokuapp.com/events?_limit=12').then(
       (res) => res.json()
     )
     this.featureEvents = await fetch(
-      'http://localhost:3001/events?_sort=clicked&_order=desc&_limit=5'
+      'https://api-squad5.herokuapp.com/events?_sort=clicked&_order=desc&_limit=5'
     ).then((res) => res.json())
   },
 }

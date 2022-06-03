@@ -75,7 +75,7 @@ export default {
       return
     } else {
       this.eventList = await fetch(
-        'http://localhost:3001/events/' + filters
+        'https://api-squad5.herokuapp.com/events/' + filters
       ).then((res) => res.json())
     }
     this.currentEventList = this.eventList
@@ -85,9 +85,6 @@ export default {
       this.findEvents()
     },
     tagFilter() {
-      this.findEvents()
-    },
-    subTagFilter() {
       this.findEvents()
     },
     dateFilter() {
@@ -131,14 +128,6 @@ export default {
         )
       };
     },
-    // filterEventsBySubtag(subTag) {
-    //   if (subTag) {
-    //     this.currentEventList = this.currentEventList.filter(
-    //       (event) =>
-    //         event.subtags.find((element) => element.id === subTag) !== undefined
-    //     )
-    //   }
-    // },
     findEvents() {
       this.currentEventList = this.eventList
       this.filterByDate(this.dateFilter);

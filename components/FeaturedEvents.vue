@@ -22,7 +22,7 @@ export default {
   }),
   async fetch() {
     this.eventList = await fetch(
-      'http://localhost:3001/events?_sort=date,clicked&_order=asc,desc&_limit=6'
+      'https://api-squad5.herokuapp.com/events?_sort=date,clicked&_order=asc,desc&_limit=6'
     ).then((res) => res.json())
   },
 }

@@ -59,8 +59,8 @@ export default {
           property: 'user' // No endpoint do usuário, qual propriedade está contida os dados do usuário logado
         },
         endpoints: {
-          login: { url: 'http://localhost:3001/login', method: 'post' },
-          user: { url: 'http://localhost:3001/users/', method: 'get' }
+          login: { url: 'https://api-squad5.herokuapp.com/login', method: 'post' },
+          user: { url: 'https://api-squad5.herokuapp.com/users/', method: 'get' }
         }
       }
     },
@@ -74,7 +74,7 @@ export default {
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
     // Workaround to avoid enforcing hard-coded localhost:3000: https://github.com/nuxt-community/axios-module/issues/308
-    baseURL: '',
+    baseURL: 'https://api-squad5.herokuapp.com/',
   },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify

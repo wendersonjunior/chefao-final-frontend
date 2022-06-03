@@ -225,7 +225,7 @@ export default {
     dialog: false,
   }),
   async fetch() {
-    this.categories = await fetch(`http://localhost:3001/tags`).then((res) =>
+    this.categories = await fetch(`https://api-squad5.herokuapp.com/tags`).then((res) =>
       res.json()
     )
   },

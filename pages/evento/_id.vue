@@ -139,7 +139,7 @@ export default {
     buyTickets: false,
   }),
   async fetch() {
-    this.event = await fetch(`http://localhost:3001/events/${this.$route.params.id}`).then((res) =>
+    this.event = await fetch(`https://api-squad5.herokuapp.com/events/${this.$route.params.id}`).then((res) =>
       res.json()
     );
   },
