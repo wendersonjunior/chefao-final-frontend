@@ -44,21 +44,20 @@
         height="100%"
         color="mediumgray"
       >
-      <div class="d-flex">
-        <v-img
-          max-height="50"
-          max-width="50"
-          :src="eventData.banner"
-        >
-        </v-img>
-        <div class="d-flex flex-column justify-center ml-2">
-          <h2 class="body-1 black11--text font-weight-medium"> {{ eventData.name }}</h2>
-          <span class="caption black09--text"> 
-            {{ $moment(eventData.date).format('dddd') }}, 
-            {{ $moment(eventData.date).format('LL') }} - {{ eventData.schedule }}
-          </span>
+        <div class="d-flex">
+          <v-img max-height="50" max-width="50" :src="eventData.banner">
+          </v-img>
+          <div class="d-flex flex-column justify-center ml-2">
+            <h2 class="body-1 black11--text font-weight-medium">
+              {{ eventData.name }}
+            </h2>
+            <span class="caption black09--text">
+              {{ $moment(eventData.date).format('dddd') }},
+              {{ $moment(eventData.date).format('LL') }} -
+              {{ eventData.schedule }}
+            </span>
+          </div>
         </div>
-      </div>
       </v-card>
     </NuxtLink>
   </v-hover>

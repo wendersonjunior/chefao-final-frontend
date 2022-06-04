@@ -1,10 +1,6 @@
 <template>
   <v-slide-group>
-    <v-slide-item
-      v-for="event in eventList"
-      :key="event.id"
-      class="mr-2 mt-2"
-    >
+    <v-slide-item v-for="event in eventList" :key="event.id" class="mr-2 mt-2">
       <EventCard :event-data="event" />
     </v-slide-item>
   </v-slide-group>

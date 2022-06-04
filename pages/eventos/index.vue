@@ -1,23 +1,31 @@
 <template>
   <div>
     <v-container class="mt-6">
-      <v-row>
-        <v-col>
-          <h2 class="text-h5 font-weight-bold black11--text">Encontre os melhores rolês da cidade</h2>
+      <v-row v-if="!categorieSelected && !date && !ticketValue">
+        <v-col cols="10">
+          <h2 class="text-h5 font-weight-bold black11--text">
+            Encontre os melhores rolês da cidade
+          </h2>
+        </v-col>
+        <v-col cols="2" class="d-flex align-center justify-end">
+          <NuxtLink to="/" class="text-decoration-none">
+            <v-icon color="primary" size="32"> mdi-close </v-icon>
+          </NuxtLink>
         </v-col>
       </v-row>
-      <v-row>
+      <v-row v-if="!categorieSelected && !date && !ticketValue">
         <v-col cols="12">
           <v-text-field
             v-model="search"
             label="Buscar eventos"
             solo
+            :autofocus="true"
             :flat="true"
             class="rounded-pill elevation-0"
             color="primary"
             background-color="mediumgray"
             prepend-inner-icon="mdi-magnify"
-            append-icon="mdi-tune"
+            append-icon="mdi-filter-variant"
             @click:append="dialog = true"
             @keyup="nameFilter = search"
           >
@@ -35,7 +43,10 @@
                 color="primary"
                 :outlined="categorieSelected !== categorie.id"
                 rounded
-                @click="toggle; setCategorie(categorie.id)"
+                @click="
+                  toggle
+                  setCategorie(categorie.id)
+                "
               >
                 {{ categorie.description }}
               </v-btn>
@@ -49,10 +60,31 @@
           </div>
         </v-col>
       </v-row>
+      <v-row v-else>
+        <v-col cols="12">
+          <div class="d-flex justify-space-between align-center">
+            <span class="black11--text font-weight-bold text-h5">
+              Resultados para o filtro
+            </span>
+            <v-icon color="primary" size="24" @click="clear"> mdi-close </v-icon>
+          </div>
+          <div class="mt-4">
+            <v-chip v-if="categorieSelected" color="primary" class="body-2">
+              {{ categories[categorieSelected - 1].description }}
+            </v-chip>
+            <v-chip v-if="ticketValue" color="primary" class="body-2">
+              Até R$ {{ ticketValue }}
+            </v-chip>
+            <v-chip v-if="date" color="primary" class="body-2">
+              {{ $moment(date).format('DD/MM/YYYY') }}
+            </v-chip>
+          </div>
+        </v-col>
+      </v-row>
       <v-row>
         <v-col cols="12">
-          <EventList 
-            :name-filter="nameFilter" 
+          <EventList
+            :name-filter="nameFilter"
             :tag-filter="categorieSelected"
             :date-filter="date"
             :value-filter="ticketValue"
@@ -71,14 +103,13 @@
           <v-row>
             <v-col>
               <div class="d-flex align-center justify-space-between">
-                <v-icon color="primary" @click="dialog = false">mdi-close</v-icon>
+                <v-icon color="primary" @click="dialog = false"
+                  >mdi-close</v-icon
+                >
                 <span class="black11--text font-weight-bold text-h5">
                   Filtrar eventos
                 </span>
-                <span
-                  class="primary--text body-1 mt-1"
-                  @click="clear"
-                >
+                <span class="primary--text body-1 mt-1" @click="clear">
                   Limpar
                 </span>
               </div>
@@ -86,9 +117,11 @@
           </v-row>
           <v-row>
             <v-col cols="12">
-              <span class="text-h6 font-weight-bold black11--text">Por tipo</span>
+              <span class="text-h6 font-weight-bold black11--text"
+                >Por tipo</span
+              >
               <v-item-group>
-                <v-item 
+                <v-item
                   v-for="categorie in categories"
                   :key="categorie.id"
                   v-slot="{ active, toggle }"
@@ -100,7 +133,10 @@
                     color="primary"
                     :outlined="categorieSelected !== categorie.id"
                     rounded
-                    @click="toggle; setCategorie(categorie.id)"
+                    @click="
+                      toggle
+                      setCategorie(categorie.id)
+                    "
                   >
                     {{ categorie.description }}
                   </v-chip>
@@ -108,7 +144,9 @@
               </v-item-group>
             </v-col>
             <v-col cols="8" class="mt-4">
-              <span class="text-h6 font-weight-bold black11--text">Por data</span>
+              <span class="text-h6 font-weight-bold black11--text"
+                >Por data</span
+              >
               <v-menu
                 ref="menu"
                 v-model="menu"
@@ -138,57 +176,46 @@
                   color="primary"
                 >
                   <v-spacer></v-spacer>
-                  <v-btn
-                    text
-                    color="primary"
-                    @click="menu = false"
-                  >
+                  <v-btn text color="primary" @click="menu = false">
                     Cancel
                   </v-btn>
-                  <v-btn
-                    text
-                    color="primary"
-                    @click="$refs.menu.save(date)"
-                  >
+                  <v-btn text color="primary" @click="$refs.menu.save(date)">
                     OK
                   </v-btn>
                 </v-date-picker>
               </v-menu>
             </v-col>
             <v-col cols="12">
-              <span class="text-h6 font-weight-bold black11--text">Por preço</span>
-              <div class="d-flex justify-space-between">
-                <v-subheader class="pl-0">
-                  Gratuito
-                </v-subheader>
-                <v-subheader class="pl-0">
-                  + de R$500,00
-                </v-subheader>
+              <span class="text-h6 font-weight-bold black11--text"
+                >Por preço</span
+              >
+              <div class="d-flex justify-end">
+                <v-subheader class="pl-0"> + de R$500,00 </v-subheader>
               </div>
               <v-slider
                 v-model="ticketValue"
                 :max="max"
                 :min="min"
                 thumb-label="always"
-                :thumb-size="28"
+                :thumb-size="58"
                 class="mt-6"
                 color="primary"
-              ></v-slider>
+              >
+                <template #thumb-label="{ value }">
+                  <div class="d-flex flex-column align-center">
+                    <span class="text-caption">Até</span>
+                    <span class="text-caption font-weight-bold">
+                      R$ {{ value }}
+                    </span>
+                  </div>
+                </template>
+              </v-slider>
             </v-col>
           </v-row>
           <v-row>
             <v-col cols="12">
               <div
-                class="
-                  d-flex
-                  align-center
-                  justify-center
-                  rounded-pill
-                  white--text
-                  primary
-                  body-2
-                  pa-3
-                "
+                class="d-flex align-center justify-center rounded-pill white--text primary body-2 pa-3"
                 @click="dialog = false"
               >
                 Aplicar filtros
@@ -209,7 +236,7 @@ export default {
   name: 'EventPage',
   components: {
     EventList,
-    FeaturedEvents
+    FeaturedEvents,
   },
   props: {},
   data: () => ({
@@ -217,7 +244,7 @@ export default {
     nameFilter: '',
     categories: [],
     menu: false,
-    date: "",
+    date: '',
     min: 0,
     max: 500,
     ticketValue: null,
@@ -225,25 +252,25 @@ export default {
     dialog: false,
   }),
   async fetch() {
-    this.categories = await fetch(`https://api-squad5.herokuapp.com/tags`).then((res) =>
-      res.json()
+    this.categories = await fetch(`https://api-squad5.herokuapp.com/tags`).then(
+      (res) => res.json()
     )
   },
   methods: {
     setCategorie(id) {
       if (this.categorieSelected === id) {
-        this.categorieSelected = null;
+        this.categorieSelected = null
       } else {
-        this.categorieSelected = id;
+        this.categorieSelected = id
       }
     },
     clear() {
-      this.nameFilter = "";
-      this.categorieSelected = null;
-      this.date = "";
-      this.ticketValue = null;
-    }
-  }
+      this.nameFilter = ''
+      this.categorieSelected = null
+      this.date = ''
+      this.ticketValue = null
+    },
+  },
 }
 </script>
 

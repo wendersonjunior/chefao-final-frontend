@@ -79,7 +79,7 @@ export default {
     validate() {
       if (this.$refs.form.validate()) {
         this.loading = true
-        this.createProducer();
+        this.createProducer()
       }
     },
     createProducer() {
@@ -96,7 +96,7 @@ export default {
             'Produtor cadastrado com sucesso! Volte para tela de login e acesse a plataforma :)'
         })
         .finally(() => {
-          this.loading = false;
+          this.loading = false
         })
     },
   },

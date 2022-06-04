@@ -36,8 +36,8 @@ export default {
     tags: [],
   }),
   async fetch() {
-    this.tags = await fetch('https://api-squad5.herokuapp.com/tags').then((res) =>
-      res.json()
+    this.tags = await fetch('https://api-squad5.herokuapp.com/tags').then(
+      (res) => res.json()
     )
   },
 }

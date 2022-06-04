@@ -14,9 +14,6 @@
       <p class="mt-4 body-1 black11--text font-weight-bold">
         Não encontramos resultados para o filtro selecionado.
       </p>
-      <p class="body-2 medium--text font-weight-medium">
-        Tente utilizar algum outro filtro.
-      </p>
     </v-col>
   </v-row>
 </template>
@@ -100,7 +97,7 @@ export default {
     },
     valueFilter() {
       this.findEvents()
-    }
+    },
   },
   methods: {
     filterByDate(date) {
@@ -108,12 +105,12 @@ export default {
         this.currentEventList = this.currentEventList.filter((event) =>
           event.date.includes(date)
         )
-      };
-      this.filterEventsByTag(this.tagFilter);
+      }
+      this.filterEventsByTag(this.tagFilter)
     },
     filterEventsByTag(tag) {
       if (tag) {
-        tag = Number.parseInt(tag);
+        tag = Number.parseInt(tag)
         this.currentEventList = this.currentEventList.filter(
           (event) => event.tag === tag
         )
@@ -122,7 +119,7 @@ export default {
     },
     filterEventsByName(name) {
       if (name) {
-        name = name.toUpperCase();
+        name = name.toUpperCase()
         this.currentEventList = this.currentEventList.filter((event) =>
           event.name.toUpperCase().includes(name)
         )
@@ -131,14 +128,14 @@ export default {
     },
     filterByValue(value) {
       if (value) {
-        this.currentEventList = this.currentEventList.filter((event) =>
-          event.ticketPrice <= value
+        this.currentEventList = this.currentEventList.filter(
+          (event) => event.ticketPrice <= value
         )
-      };
+      }
     },
     findEvents() {
       this.currentEventList = this.eventList
-      this.filterByDate(this.dateFilter);
+      this.filterByDate(this.dateFilter)
     },
   },
 }

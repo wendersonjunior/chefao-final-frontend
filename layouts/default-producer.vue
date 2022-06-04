@@ -29,8 +29,8 @@ export default {
     userData: {},
   }),
   created() {
-    const storage = new VuexPersistence();
-    this.userData = storage.storage;
-  }
+    const storage = new VuexPersistence()
+    this.userData = storage.storage
+  },
 }
 </script>

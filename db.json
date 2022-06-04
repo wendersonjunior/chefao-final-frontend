@@ -2,11 +2,11 @@
   "tags": [
     {
       "id": 1,
-      "description": "Festivais"
+      "description": "Gratuito"
     },
     {
       "id": 2,
-      "description": "Shows"
+      "description": "Audiovisual"
     },
     {
       "id": 3,
@@ -14,368 +14,122 @@
     },
     {
       "id": 4,
+      "description": "Literatura"
+    },
+    {
+      "id": 5,
       "description": "Exposições"
     },
     {
-      "id": 5,
-      "description": "Festas"
-    },
-    {
       "id": 6,
-      "description": "Teatro"
-    },
-    {
-      "id": 7,
-      "description": "Religião e espiritualidade"
-    },
-    {
-      "id": 8,
-      "description": "Esportes"
-    },
-    {
-      "id": 9,
-      "description": "Gastronomia"
-    },
-    {
-      "id": 10,
-      "description": "Dia dos namorados"
-    }
-  ],
-  "subtags": [
-    {
-      "id": 1,
-      "tag": 1,
-      "description": "Show Internacional"
-    },
-    {
-      "id": 2,
-      "tag": 1,
-      "description": "Show Nacional"
-    },
-    {
-      "id": 3,
-      "tag": 1,
-      "description": "Pop & Rock"
-    },
-    {
-      "id": 4,
-      "tag": 1,
-      "description": "Hip-Hop & Rap"
-    },
-    {
-      "id": 5,
-      "tag": 1,
-      "description": "Hard Rock & Metal"
-    },
-    {
-      "id": 6,
-      "tag": 1,
-      "description": "Festas & Festivais"
-    },
-    {
-      "id": 7,
-      "tag": 1,
-      "description": "Tributos & Homenagens"
-    },
-    {
-      "id": 8,
-      "tag": 1,
-      "description": "Música Clássica & Instrumental"
-    },
-    {
-      "id": 9,
-      "tag": 1,
-      "description": "Sertanejo"
-    },
-    {
-      "id": 10,
-      "tag": 1,
-      "description": "Eletrônica & Dance"
-    },
-    {
-      "id": 11,
-      "tag": 1,
-      "description": "MPB"
-    },
-    {
-      "id": 12,
-      "tag": 1,
-      "description": "Samba & Pagode"
-    },
-    {
-      "id": 13,
-      "tag": 1,
-      "description": "Jazz & Blues"
-    },
-    {
-      "id": 14,
-      "tag": 1,
-      "description": "Reggae"
-    },
-    {
-      "id": 15,
-      "tag": 2,
-      "description": "Comédia"
-    },
-    {
-      "id": 16,
-      "tag": 2,
-      "description": "Teatro"
-    },
-    {
-      "id": 17,
-      "tag": 2,
-      "description": "Musicais"
-    },
-    {
-      "id": 18,
-      "tag": 2,
-      "description": "Balé & Dança"
-    },
-    {
-      "id": 19,
-      "tag": 3,
-      "description": "Shows Infantis"
-    },
-    {
-      "id": 20,
-      "tag": 3,
-      "description": "Teatro Infantil"
-    },
-    {
-      "id": 21,
-      "tag": 3,
-      "description": "Outros Eventos Infantis"
-    },
-    {
-      "id": 22,
-      "tag": 4,
-      "description": "Nacional"
-    },
-    {
-      "id": 23,
-      "tag": 4,
-      "description": "Bebidas"
-    },
-    {
-      "id": 24,
-      "tag": 4,
-      "description": "Internacional"
-    },
-    {
-      "id": 25,
-      "tag": 5,
-      "description": "eSports"
-    },
-    {
-      "id": 26,
-      "tag": 5,
-      "description": "Futebol"
-    },
-    {
-      "id": 27,
-      "tag": 5,
-      "description": "Voleibol"
-    },
-    {
-      "id": 28,
-      "tag": 5,
-      "description": "Basquete"
-    },
-    {
-      "id": 29,
-      "tag": 5,
-      "description": "Outros Esportes"
-    },
-    {
-      "id": 30,
-      "tag": 6,
       "description": "Cinema"
     },
     {
+      "id": 7,
+      "description": "Games"
+    },
+    {
+      "id": 8,
+      "description": "Geek"
+    },
+    {
+      "id": 9,
+      "description": "Pride"
+    },
+    {
+      "id": 10,
+      "description": "Cursos"
+    },
+    {
+      "id": 11,
+      "description": "Palestras"
+    },
+    {
+      "id": 12,
+      "description": "Congressos"
+    },
+    {
+      "id": 13,
+      "description": "Teatro"
+    },
+    {
+      "id": 14,
+      "description": "Esportes"
+    },
+    {
+      "id": 15,
+      "description": "Gastronomia"
+    },
+    {
+      "id": 16,
+      "description": "Bares"
+    },
+    {
+      "id": 17,
+      "description": "Shows"
+    },
+    {
+      "id": 18,
+      "description": "Carnaval"
+    },
+    {
+      "id": 19,
+      "description": "Raves"
+    },
+    {
+      "id": 20,
+      "description": "Automobilismo"
+    },
+    {
+      "id": 21,
+      "description": "Festivais"
+    },
+    {
+      "id": 22,
+      "description": "Festas"
+    },
+    {
+      "id": 23,
+      "description": "Festivais"
+    },
+    {
+      "id": 24,
+      "description": "Espiritualidade"
+    },
+    {
+      "id": 25,
+      "description": "Praças e parques"
+    },
+    {
+      "id": 26,
+      "description": "Religião"
+    },
+    {
+      "id": 27,
+      "description": "Oficinas"
+    },
+    {
+      "id": 28,
+      "description": "Artes cênicas"
+    },
+    {
+      "id": 29,
+      "description": "Cultura indígena"
+    },
+    {
+      "id": 30,
+      "description": "Artes visuais"
+    },
+    {
       "id": 31,
-      "tag": 6,
-      "description": "Museus & Exposições"
+      "description": "Forró"
     },
     {
       "id": 32,
-      "tag": 6,
-      "description": "Atrações Turísticas"
-    },
-    {
-      "id": 33,
-      "tag": 6,
-      "description": "Outras Atrações"
-    },
-    {
-      "id": 34,
-      "tag": 7,
-      "description": "Bar"
-    },
-    {
-      "id": 35,
-      "tag": 7,
-      "description": "Balada"
-    },
-    {
-      "id": 36,
-      "tag": 7,
-      "description": "Entrada gratuita"
-    },
-    {
-      "id": 37,
-      "tag": 7,
-      "description": "Social"
-    },
-    {
-      "id": 38,
-      "tag": 7,
-      "description": "Temático"
-    },
-    {
-      "id": 40,
-      "tag": 8,
-      "description": "Interativo"
-    },
-    {
-      "id": 41,
-      "tag": 8,
-      "description": "Gratuito"
-    },
-    {
-      "id": 42,
-      "tag": 8,
-      "description": "Pago"
-    },
-    {
-      "id": 43,
-      "tag": 9,
-      "description": "Católico"
-    },
-    {
-      "id": 44,
-      "tag": 9,
-      "description": "Evangélico"
-    },
-    {
-      "id": 45,
-      "tag": 9,
-      "description": "Budismo"
-    },
-    {
-      "id": 46,
-      "tag": 9,
-      "description": "Espírita"
-    },
-    {
-      "id": 47,
-      "tag": 9,
-      "description": "Umbanda & Candomblé"
-    },
-    {
-      "id": 48,
-      "tag": 9,
-      "description": "Judaísmo"
-    },
-    {
-      "id": 49,
-      "tag": 9,
-      "description": "Islamismo"
-    },
-    {
-      "id": 50,
-      "tag": 9,
-      "description": "Outra religão"
-    },
-    {
-      "id": 51,
-      "tag": 10,
-      "description": "Curso"
-    },
-    {
-      "id": 52,
-      "tag": 10,
-      "description": "Palestra"
-    },
-    {
-      "id": 53,
-      "tag": 10,
-      "description": "Workshop"
-    },
-    {
-      "id": 54,
-      "tag": 10,
-      "description": "Tecnologia"
-    },
-    {
-      "id": 55,
-      "tag": 10,
-      "description": "Comunicação"
-    },
-    {
-      "id": 56,
-      "tag": 10,
-      "description": "Social"
-    },
-    {
-      "id": 57,
-      "tag": 10,
-      "description": "Filosofia"
-    },
-    {
-      "id": 58,
-      "tag": 10,
-      "description": "Gratuito"
-    },
-    {
-      "id": 59,
-      "tag": 10,
-      "description": "Pago"
+      "description": "Voluntariado"
     }
   ],
   "users": [
-    {
-      "id": 1,
-      "name": "Produtor",
-      "lastName": "Junim",
-      "email": "wendersonej.74@gmail.com",
-      "password": "33210354"
-    },
-    {
-      "name": "Wenderson",
-      "lastName": "Teste",
-      "email": "wenderson.junior@nscreen.com.br",
-      "password": "33210354",
-      "id": 2
-    },
-    {
-      "name": "Wenderson",
-      "lastName": "Teste 2",
-      "email": "wenderson.junior@nscreen.com.br.2",
-      "password": "33210354",
-      "id": 3
-    },
-    {
-      "name": "Teste",
-      "lastName": "Junior",
-      "password": "123123123",
-      "email": "wenderson@gmail.com",
-      "id": 4
-    },
-    {
-      "name": "teste2",
-      "lastName": "teste",
-      "password": "123123123",
-      "email": "qweqwe@qwe.com",
-      "id": 5
-    },
-    {
-      "name": "teste3",
-      "lastName": "teste",
-      "password": "123123123",
-      "email": "wendersonjr@gmail.com",
-      "id": 6
-    },
     {
       "email": "wenderson.teste@gmail.com",
       "password": "$2a$10$SD6vT8pi1IW3uusQAiuMt.XgNA2dd0gNArm6BbuoL5Vb8J3kkB13i",
@@ -386,26 +140,22 @@
   ],
   "events": [
     {
-      "id": "628c343b1fa7b5dd36ba3763",
-      "name": "Mcknight Knapp",
-      "banner": "https://picsum.photos/200",
-      "date": "2022-12-09T02:24:37",
-      "schedule": "13:00",
-      "address": "Meeker Avenue, Northridge",
-      "completeAddress": "110 Thatford Avenue, Siglerville, Federated States Of Micronesia, 8869",
-      "tag": 2,
+      "id": "1",
+      "name": "Festival Sarará 2022",
+      "banner": "https://images.sympla.com.br/6297c960bd6e6-lg.png",
+      "date": "2022-08-27T12:00:00",
+      "schedule": "12:00",
+      "address": "Esplanada do Mineirão",
+      "completeAddress": "Av. Antônio Abrahão Caram, 1001, Setor Norte, Pampulha Belo Horizonte, MG",
+      "tag": 23,
       "ifFree": false,
-      "description": "Cupidatat nisi consectetur sint id cupidatat laboris velit reprehenderit ut. Irure sunt non reprehenderit sit nostrud eiusmod exercitation commodo tempor eu officia amet ut. Ea proident ex proident id ex nisi sunt quis elit enim. Elit veniam consequat culpa veniam ullamco nostrud. Tempor qui ea consequat reprehenderit velit nulla et tempor enim id laboris in commodo cupidatat. Id sunt duis enim cupidatat occaecat culpa et exercitation nisi mollit. Sit enim quis tempor ex consequat culpa esse.\r\nDolor nisi sint sunt ipsum deserunt. Consectetur ex fugiat et mollit ex cillum consequat amet. Exercitation ullamco ut aute officia. Dolore quis ea officia consequat veniam. Enim Lorem ex proident in proident eiusmod elit dolore sit do veniam in. Amet consectetur esse velit et exercitation velit consectetur sunt deserunt incididunt. Culpa fugiat pariatur consectetur proident ut consequat occaecat enim ullamco irure dolor dolore reprehenderit.\r\nExcepteur irure eu ad veniam adipisicing ex. Do ad anim quis sit. Magna do qui aute quis cillum cupidatat commodo laboris laborum. Dolor elit ea culpa amet cupidatat et ipsum eiusmod minim irure do exercitation. Magna dolor eiusmod sint consectetur anim magna ea sint in proident. Anim ad excepteur commodo Lorem.\r\n",
-      "clicked": 315,
-      "ticketPrice": 22.90,
+      "description": "\nCLASSIFICAÇÃO:\n\nPista e Pista Premium: 16 anos\r\nÁrea Open Bar: 18 anos\r\n\n¹Inteira: Ingresso que dá acesso apenas ao local determinado no ingresso, sem nenhum tipo de desconto.\r\n\n²Solidário: Desconto estipulado no valor do ingresso mediante a entrega de 1 livro ou 1kg de alimento na portaria do festival.\r\n\n³Meia Entrada: 50% de desconto no valor do ingresso mediante a apresentação de comprovação. Tem direito à meia-entrada estudantes de ensino público e particular; pessoas com idade igual ou superior a 60 anos; e professores da rede de ensino público.\r\n\n- Bebidas disponíveis na Área Open Bar: cerveja Devassa, água mineral, gin, vodka, água tônica, sucos e refrigerantes. \r\n\nINFORMAÇÕES IMPORTANTES SOBRE OS INGRESSOS SYMPLA:\r\n\n- Os ingressos comprados até o dia 22 de março de 2021 (antes de fazermos o adiamento desta edição) continuam válidos para a edição de 2022 e não será preciso fazer troca ou cancelamento de ingressos. \r\n\n- Caso você não possa participar do festival em 27 de agosto de 2022 e queira pedir o cancelamento do seu ingresso, a solicitação de reembolso deve ser feita até o dia 22 de maio de 2022 pelo link https://ajuda.sympla.com.br/hc/pt-br/requests/new?ticket_form_id=4412545402388 . Os valores dos ingressos poderão ser reembolsados em até 12 meses após o decreto de fim da calamidade pública, de acordo com a  Medida Provisória 948/2020, publicada pelo Governo Federal, como resposta aos impactos da pandemia do novo Coronavírus.\r\n\n- O acesso ao evento para menores de 16 anos é permitido para os setores de Pista e Pista Premium, desde que acompanhad@s de pai, mãe ou responsável legal com a documentação própria. Não é permitido o acesso à área Área Open Bar para menores de 18 anos, mesmo que estes estejam com seus responsáveis legais.\r\n\n- O ingresso LOTE PROMOCIONAL é para quem confia que a edição de 2022 do Sarará será imperdível. Após 7 dias de compra, o ingresso NÃO será reembolsado em nenhuma hipótese.\r\n\n- O ingresso é pessoal (nominal). É indispensável a apresentação de um documento de identificação original e oficial com foto, juntamente com o ingresso impresso o aplicativo da Sympla, para validação da titularidade.\r\n\n- Trocas de titularidade poderão ser realizadas pela pessoa titular da compra; basta instalar o app da Sla! Se você ainda não instalou, clique em uma das opções a seguir: symp.la/android | symp.la/ios. Após fazer o login, vá até a aba 'Ingressos', clique sobre o ingresso que deseja alterar e no menu 'Opções', selecione 'Editar participantes'. Siga os procedimentos indicados na tela e confira os dados preenchidos antes de confirmar a alteração! A troca pode ser realizada apenas uma vez por ingresso e a permissão para alterar estará disponível até 24 horas antes do início do evento. Se desejar obter mais informações sobre o procedimento, acesse este link: bit.ly/TrocaSelfService.\r\n\n- Em caso de arrependimento da compra, o reembolso do valor do ingresso somente será efetuado caso a solicitação seja feita no prazo de até 7 (sete) dias a contar da data da compra, e desde que realizado o pedido de devolução com, no máximo, 48 (quarenta e oito) horas de antecedência do horário de início do evento. Essa solicitação deve ser feita pelo titular da compra através do link: https://ajuda.sympla.com.br/hc/pt-br/requests/new?ticket_form_id=4412545402388.\r\n\n- Caso não tenha recebido o ingresso (ou inscrição) em seu e-mail, você pode acessá-lo a qualquer momento pelo aplicativo da Sympla, disponível na App Store ou Play Store (www.sympla.com.br/app), no site da Sympla (menu “Meus pedidos”), entrando em contato pelo e-mail participante@sympla.com.br ou acesse este link: bit.ly/CadeMeuIngresso.\r\n\n- Outras informações podem ser encontradas na Central de Ajuda: bit.ly/AjudaSympla.\r\n\n- A Sympla não se responsabiliza por ingressos adquiridos em pontos de venda não oficiais.\r\n\n- Ao comprar este ingresso, você autoriza o uso de sua imagem e voz em todo e qualquer material de foto, vídeo e documentos de organizadores e patrocinadores.\r\n\n",
+      "clicked": 1015,
+      "ticketPrice": 110.00,
       "tickets": [
         {
           "platform": "Sympla",
-          "url": "https://www.sympla.com.br/"
-        },
-        {
-          "platform": "Eventim",
-          "url": "https://www.eventim.com.br/"
+          "url": "https://www.sympla.com.br/evento/festival-sarara-2022/645595"
         }
       ]
     },
@@ -426,10 +176,6 @@
         {
           "platform": "Sympla",
           "url": "https://www.sympla.com.br/"
-        },
-        {
-          "platform": "Eventim",
-          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -450,10 +196,6 @@
         {
           "platform": "Sympla",
           "url": "https://www.sympla.com.br/"
-        },
-        {
-          "platform": "Eventim",
-          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -474,10 +216,6 @@
         {
           "platform": "Sympla",
           "url": "https://www.sympla.com.br/"
-        },
-        {
-          "platform": "Eventim",
-          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -498,10 +236,6 @@
         {
           "platform": "Sympla",
           "url": "https://www.sympla.com.br/"
-        },
-        {
-          "platform": "Eventim",
-          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -522,10 +256,6 @@
         {
           "platform": "Sympla",
           "url": "https://www.sympla.com.br/"
-        },
-        {
-          "platform": "Eventim",
-          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -546,10 +276,6 @@
         {
           "platform": "Sympla",
           "url": "https://www.sympla.com.br/"
-        },
-        {
-          "platform": "Eventim",
-          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -570,10 +296,6 @@
         {
           "platform": "Sympla",
           "url": "https://www.sympla.com.br/"
-        },
-        {
-          "platform": "Eventim",
-          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -594,10 +316,6 @@
         {
           "platform": "Sympla",
           "url": "https://www.sympla.com.br/"
-        },
-        {
-          "platform": "Eventim",
-          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -618,10 +336,6 @@
         {
           "platform": "Sympla",
           "url": "https://www.sympla.com.br/"
-        },
-        {
-          "platform": "Eventim",
-          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -642,10 +356,6 @@
         {
           "platform": "Sympla",
           "url": "https://www.sympla.com.br/"
-        },
-        {
-          "platform": "Eventim",
-          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -666,10 +376,6 @@
         {
           "platform": "Sympla",
           "url": "https://www.sympla.com.br/"
-        },
-        {
-          "platform": "Eventim",
-          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -690,10 +396,6 @@
         {
           "platform": "Sympla",
           "url": "https://www.sympla.com.br/"
-        },
-        {
-          "platform": "Eventim",
-          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -714,10 +416,6 @@
         {
           "platform": "Sympla",
           "url": "https://www.sympla.com.br/"
-        },
-        {
-          "platform": "Eventim",
-          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -738,10 +436,6 @@
         {
           "platform": "Sympla",
           "url": "https://www.sympla.com.br/"
-        },
-        {
-          "platform": "Eventim",
-          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -762,10 +456,6 @@
         {
           "platform": "Sympla",
           "url": "https://www.sympla.com.br/"
-        },
-        {
-          "platform": "Eventim",
-          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -786,10 +476,6 @@
         {
           "platform": "Sympla",
           "url": "https://www.sympla.com.br/"
-        },
-        {
-          "platform": "Eventim",
-          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -810,10 +496,6 @@
         {
           "platform": "Sympla",
           "url": "https://www.sympla.com.br/"
-        },
-        {
-          "platform": "Eventim",
-          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -834,10 +516,6 @@
         {
           "platform": "Sympla",
           "url": "https://www.sympla.com.br/"
-        },
-        {
-          "platform": "Eventim",
-          "url": "https://www.eventim.com.br/"
         }
       ]
     },
@@ -858,10 +536,6 @@
         {
           "platform": "Sympla",
           "url": "https://www.sympla.com.br/"
-        },
-        {
-          "platform": "Eventim",
-          "url": "https://www.eventim.com.br/"
         }
       ]
     }

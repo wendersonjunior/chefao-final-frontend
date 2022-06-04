@@ -1,17 +1,7 @@
 <template>
   <v-col cols="12">
-    <v-btn
-      fab
-      absolute
-      top
-      right
-      outlined
-      dark
-      class="mr-2 mt-16 rounded-lg"
-    >
-      <v-icon>
-        mdi-close
-      </v-icon>
+    <v-btn fab absolute top right outlined dark class="mr-2 mt-16 rounded-lg">
+      <v-icon> mdi-close </v-icon>
     </v-btn>
     <div class="d-flex justify-center align-center flex-column">
       <v-img src="/logo.svg" width="168px" height="69px"></v-img>

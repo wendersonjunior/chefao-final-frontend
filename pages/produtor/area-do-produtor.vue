@@ -10,7 +10,9 @@
     </pre>
     <v-row>
       <v-col class="elevation-2 white rounded-lg">
-        <span class="subtitle-1 font-weight-bold gray--text text--darken-4">Meus eventos</span>
+        <span class="subtitle-1 font-weight-bold gray--text text--darken-4"
+          >Meus eventos</span
+        >
       </v-col>
     </v-row>
   </v-container>

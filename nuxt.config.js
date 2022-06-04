@@ -3,8 +3,8 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - y',
-    title: 'y',
+    titleTemplate: '%s - Os melhores rolês da cidade, você econtra aqui',
+    title: 'Rolê',
     htmlAttrs: {
       lang: 'en',
     },
@@ -21,9 +21,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-    { src: '~/plugins/vuex-persist.js', mode: 'client' }
-  ],
+  plugins: [{ src: '~/plugins/vuex-persist.js', mode: 'client' }],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -35,19 +33,19 @@ export default {
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
 
-    '@nuxtjs/moment'
+    '@nuxtjs/moment',
   ],
 
   moment: {
-    defaultLocale : 'pt-br' , 
-    locales: ['pt-br']
+    defaultLocale: 'pt-br',
+    locales: ['pt-br'],
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    '@nuxtjs/auth'
+    '@nuxtjs/auth',
   ],
   auth: {
     strategies: {
@@ -56,18 +54,24 @@ export default {
           property: 'accessToken', // No response do endpoint de login, qual propriedade está contido o token
         },
         user: {
-          property: 'user' // No endpoint do usuário, qual propriedade está contida os dados do usuário logado
+          property: 'user', // No endpoint do usuário, qual propriedade está contida os dados do usuário logado
         },
         endpoints: {
-          login: { url: 'https://api-squad5.herokuapp.com/login', method: 'post' },
-          user: { url: 'https://api-squad5.herokuapp.com/users/', method: 'get' }
-        }
-      }
+          login: {
+            url: 'https://api-squad5.herokuapp.com/login',
+            method: 'post',
+          },
+          user: {
+            url: 'https://api-squad5.herokuapp.com/users/',
+            method: 'get',
+          },
+        },
+      },
     },
     redirect: {
       login: '/produtor/autenticacao', // Rota para página de login
       logout: '/produtor/autenticacao', // Rota para quando fizer logout
-      home: '/produtor/area-do-produtor' // Rota principal
+      home: '/produtor/area-do-produtor', // Rota principal
     },
   },
 
@@ -89,8 +93,8 @@ export default {
           lightgray: '#F5F5F5',
           mediumgray: '#F8F5F9',
           black09: '#50475E',
-          black11: '#2A2337'
-        }
+          black11: '#2A2337',
+        },
       },
     },
   },
