@@ -7,7 +7,7 @@ Repositório referente ao front-end no desafio chefão final do Bootcamp Gama Ac
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/wendersonjunior/chefao-final-backend/blob/main/LICENSE)
 
 <h1 align="center">
-    <img alt="GamaAcademy" title="#GamaAcademy" src=".github/logo.png" width="250px" />
+    <img alt="GamaAcademy" title="#GamaAcademy" src="https://raw.githubusercontent.com/GusAlberto/chefao-final-backend/main/.github/logo.png" width="250px" />
 </h1>
 
 <h4 align="center"> 
@@ -29,12 +29,12 @@ Repositório referente ao front-end no desafio chefão final do Bootcamp Gama Ac
 <!-- ABOUT THE PROJECT -->
 
 <p align="center">
-    <img alt="GamaHacker" title="#GamaHacker" src=".github/hacker.svg" width="50px" />
+    <img alt="GamaHacker" title="#GamaHacker" src="https://raw.githubusercontent.com/GusAlberto/chefao-final-backend/main/.github/hacker.svg" width="50px" />
 </p>
 
 ## Sobre o Projeto 💻
 <h1 align="center">
-    <img alt="ROLÊ" title="#Role" src=".github/role.png" width="250px" />
+    <img alt="ROLÊ" title="#Role" src="https://raw.githubusercontent.com/GusAlberto/chefao-final-backend/main/.github/role.png" width="250px" />
 </h1>
 
 Este projeto é feito por alunes da Stack Hacker da Squad 5 do Bootcamp #01 Gama Academy. O projeto visa a criação de uma aplicação, no qual terá uma curadoria sobre lugares e eventos em Belo Horizonte - MG e região metropolitana tendo como objetivo colocar a maior quantidade possível de rolês para fácil acesso do publico, projeto feito com base na metodologia ágil onde em 5 semanas desenvolvemos, validamos e colocamos em ação todas as estratégias para a criação de um MVP.
@@ -133,18 +133,18 @@ Feito com :heart: pelos Hackers do Squad #5
 
 <p><strong>💻 Gustavo Alberto</strong>
   <a href="https://br.linkedin.com/in/gustavo-alberto">
-   <img src=".github/linkedin.png" alt="Ícone ou logo do Linkedin" width="50px">
+   <img src="https://raw.githubusercontent.com/GusAlberto/chefao-final-backend/main/.github/linkedin.png" alt="Ícone ou logo do Linkedin" width="50px">
   </a>
 </p>
 
 <p><strong>💻 Hellen Viana</strong>
   <a href="https://www.linkedin.com/in/hellen-viana/">
-    <img src=".github/linkedin.png" alt="Ícone ou logo do Linkedin" width="50px">
+    <img src="https://raw.githubusercontent.com/GusAlberto/chefao-final-backend/main/.github/linkedin.png" alt="Ícone ou logo do Linkedin" width="50px">
   </a>
 </p>
 
 <p><strong>💻 Wenderson Júnior</strong>
   <a href="https://www.linkedin.com/in/wenderson-junior-b4a10417b/">
-    <img src=".github/linkedin.png" alt="Ícone ou logo do Linkedin" width="50px">
+    <img src="https://raw.githubusercontent.com/GusAlberto/chefao-final-backend/main/.github/linkedin.png" alt="Ícone ou logo do Linkedin" width="50px">
   </a>
 </p>
