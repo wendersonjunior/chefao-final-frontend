@@ -1,6 +1,45 @@
-# y
+# Rolê - Gama Academy
 
-## Build Setup
+Repositório referente ao front-end no desafio chefão final do Bootcamp Gama Academy, realizado em Belo Horizonte no ano de 2022.
+
+> Status: Developing ⚠️
+
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/wendersonjunior/chefao-final-backend/blob/main/LICENSE)
+
+<h1 align="center">
+    <img alt="GamaAcademy" title="#GamaAcademy" src=".github/logo.png" width="250px" />
+</h1>
+
+<h4 align="center"> 
+	:star: Desafio Gama: Hackers do Squad #5 :star:
+	
+</h4>
+
+<!-- TABLE OF CONTENTS -->
+
+## Tabela de Conteúdo
+
+- [Tabela de Conteúdo](#tabela-de-conteúdo)
+- [Sobre o Projeto](#sobre-o-projeto-)
+  - [Objetivo](#objetivo-)
+  - [Como Utilizar](#como-utilizar-)
+- [Contribuição](#contribuição-)
+- [Contato](#contato)
+
+<!-- ABOUT THE PROJECT -->
+
+<p align="center">
+    <img alt="GamaHacker" title="#GamaHacker" src=".github/hacker.svg" width="50px" />
+</p>
+
+## Sobre o Projeto 💻
+<h1 align="center">
+    <img alt="ROLÊ" title="#Role" src=".github/role.png" width="250px" />
+</h1>
+
+Este projeto é feito por alunes da Stack Hacker da Squad 5 do Bootcamp #01 Gama Academy. O projeto visa a criação de uma aplicação, no qual terá uma curadoria sobre lugares e eventos em Belo Horizonte - MG e região metropolitana tendo como objetivo colocar a maior quantidade possível de rolês para fácil acesso do publico, projeto feito com base na metodologia ágil onde em 5 semanas desenvolvemos, validamos e colocamos em ação todas as estratégias para a criação de um MVP.
+
+## Como Utilizar
 
 ```bash
 # install dependencies
@@ -70,3 +109,42 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+
+<!-- CONTRIBUTING -->
+
+## Contribuição 💡
+
+Contribuições são o que fazem a comunidade open source um lugar incrível para aprender, inspirar e criar. Qualquer contribuição que você fizer será **muito apreciada**.
+
+1. Faça um Fork do projeto
+2. Crie uma Branch para sua Feature (`git checkout -b feature/FeatureIncrivel`)
+3. Adicione suas mudanças (`git add .`)
+4. Comite suas mudanças (`git commit -m 'Adicionando uma Feature incrível!`)
+5. Faça o Push da Branch (`git push origin feature/FeatureIncrivel`)
+6. Abra um Pull Request
+
+<!-- CONTACT -->
+
+## Contato
+
+Feito com :heart: pelos Hackers do Squad #5
+
+<p>Nos contate pelo LinkedIn! 👇</p>
+
+<p><strong>💻 Gustavo Alberto</strong>
+  <a href="https://br.linkedin.com/in/gustavo-alberto">
+   <img src=".github/linkedin.png" alt="Ícone ou logo do Linkedin" width="50px">
+  </a>
+</p>
+
+<p><strong>💻 Hellen Viana</strong>
+  <a href="https://www.linkedin.com/in/hellen-viana/">
+    <img src=".github/linkedin.png" alt="Ícone ou logo do Linkedin" width="50px">
+  </a>
+</p>
+
+<p><strong>💻 Wenderson Júnior</strong>
+  <a href="https://www.linkedin.com/in/wenderson-junior-b4a10417b/">
+    <img src=".github/linkedin.png" alt="Ícone ou logo do Linkedin" width="50px">
+  </a>
+</p>
